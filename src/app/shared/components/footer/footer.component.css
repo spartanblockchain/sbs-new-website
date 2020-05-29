@@ -1,0 +1,18 @@
+.footer-background {
+    background-color: rgb(27, 33, 37)
+}
+
+.footer-background .on-hover {
+    background-color: rgb(27, 33, 37)
+}
+
+.icon-background {
+    color: rgb(0, 127, 51)
+}
+
+.footer-page-links {
+    color: white;
+    font-size: medium;
+    margin: 2em;
+    font-weight: bold;
+}
