@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -13,6 +16,7 @@ import { GetInvolvedComponent } from './pages/get-involved/get-involved.componen
 import { ContactFormComponent } from './pages/get-involved/components/contact-form/contact-form.component';
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,10 +29,13 @@ import { TeamMemberComponent } from './pages/about/components/team-member/team-m
     EventsComponent,
     GetInvolvedComponent,
     ContactFormComponent,
-    TeamMemberComponent
+    TeamMemberComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
