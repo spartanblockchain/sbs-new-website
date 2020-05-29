@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -15,6 +18,7 @@ import { TeamMemberComponent } from './pages/about/components/team-member/team-m
 import { AppRoutingModule } from './app-routing.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +31,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     EventsComponent,
     GetInvolvedComponent,
     ContactFormComponent,
-    TeamMemberComponent
+    TeamMemberComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FontAwesomeModule, // https://github.com/FortAwesome/angular-fontawesome 
+    FormsModule,
+    ReactiveFormsModule,
+    MDBBootstrapModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
