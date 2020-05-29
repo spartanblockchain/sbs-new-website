@@ -16,6 +16,7 @@ import { GetInvolvedComponent } from './pages/get-involved/get-involved.componen
 import { ContactFormComponent } from './pages/get-involved/components/contact-form/contact-form.component';
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule, // https://github.com/FortAwesome/angular-fontawesome 
     FormsModule,
     ReactiveFormsModule,
     MDBBootstrapModule.forRoot(),
