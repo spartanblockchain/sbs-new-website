@@ -10,6 +10,8 @@ import { PageHeadingComponent } from './shared/components/page-heading/page-head
 import { EducationComponent } from './pages/education/education.component';
 import { EventsComponent } from './pages/events/events.component';
 import { GetInvolvedComponent } from './pages/get-involved/get-involved.component';
+import { ContactFormComponent } from './pages/get-involved/components/contact-form/contact-form.component';
+import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { GetInvolvedComponent } from './pages/get-involved/get-involved.componen
     PageHeadingComponent,
     EducationComponent,
     EventsComponent,
-    GetInvolvedComponent
+    GetInvolvedComponent,
+    ContactFormComponent,
+    TeamMemberComponent
   ],
   imports: [
     BrowserModule
