@@ -15,6 +15,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { GetInvolvedComponent } from './pages/get-involved/get-involved.component';
 import { ContactFormComponent } from './pages/get-involved/components/contact-form/contact-form.component';
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -33,9 +34,13 @@ import { TeamMemberComponent } from './pages/about/components/team-member/team-m
   ],
   imports: [
     BrowserModule,
+<<<<<<< HEAD
     FormsModule,
     ReactiveFormsModule,
     MDBBootstrapModule.forRoot()
+=======
+    AppRoutingModule
+>>>>>>> 8d5a2093609bd92d31d678751d699523ee887f23
   ],
   providers: [],
   bootstrap: [AppComponent]
