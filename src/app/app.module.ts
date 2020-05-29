@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -14,6 +17,7 @@ import { ContactFormComponent } from './pages/get-involved/components/contact-fo
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,10 +30,13 @@ import { AppRoutingModule } from './app-routing.module';
     EventsComponent,
     GetInvolvedComponent,
     ContactFormComponent,
-    TeamMemberComponent
+    TeamMemberComponent,
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MDBBootstrapModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
