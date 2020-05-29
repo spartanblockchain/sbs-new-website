@@ -34,13 +34,10 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-<<<<<<< HEAD
     FormsModule,
     ReactiveFormsModule,
-    MDBBootstrapModule.forRoot()
-=======
+    MDBBootstrapModule.forRoot(),
     AppRoutingModule
->>>>>>> 8d5a2093609bd92d31d678751d699523ee887f23
   ],
   providers: [],
   bootstrap: [AppComponent]
