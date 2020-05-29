@@ -12,6 +12,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { GetInvolvedComponent } from './pages/get-involved/get-involved.component';
 import { ContactFormComponent } from './pages/get-involved/components/contact-form/contact-form.component';
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TeamMemberComponent } from './pages/about/components/team-member/team-m
     TeamMemberComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
