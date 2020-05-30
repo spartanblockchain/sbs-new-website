@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GetInvolvedComponent implements OnInit {
 
+  TITLE: string = "Get Involved";
+  DESCRIPTION: string = "Get Involved Description"
+
   constructor() { }
 
   ngOnInit(): void {

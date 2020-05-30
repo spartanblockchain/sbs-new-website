@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  TITLE: string = "Spartan Blockchain Solutions";
+  DESCRIPTION: string = "Home Description"
+
   constructor() { }
 
   ngOnInit(): void {
