@@ -30,6 +30,34 @@ export const sbsTeamMembers = [
   {fname: "Maggie", lname: "Francis",
     position: "VP of Diversity and Inclusion",
     image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Maggie", lname: "Francis",
+    position: "VP of Diversity and Inclusion",
+    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
   }
 
 ]

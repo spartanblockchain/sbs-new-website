@@ -1,4 +1,7 @@
-<div class="container" style="padding-left: 12%">
+<!--<Sub-Header></Sub-Header>-->
+
+
+<div class="container">
   <div class="row">
     <div class="col-lg-12 col-lg-10 mx-auto">
       <section id="who-are-we">
@@ -7,10 +10,9 @@
       <h2 class="section-heading hidden pb-2">
         <b>WHO ARE WE?</b>
       </h2>
-      <hr width="15%" style="border-width: 7px">
-      <p class="hidden pb-4" style="text-align: justify">Spartan Blockchain Solutions (SBS) is a student-run,
-        non-profit blockchain advisory and
-        advocacy
+      <hr class="hidden" width="15%" style="border-width: 7px">
+      <p class="hidden pb-4" style="text-align: justify">
+        Spartan Blockchain Solutions (SBS) is a student-run, non-profit blockchain advisory and advocacy
         firm. Our mission is to provide local businesses and organizations with innovative blockchain solutions while
         jumpstarting Michigan State University’s ecosystem to become a leading academic institution in the blockchain
         space. Our analysts develop skills through internal workshops, client engagements, and networking with
@@ -19,66 +21,57 @@
         careers in emerging technologies. The SBS Engagement Team interacts with clients
         to provide value and solve complex business problems by leveraging some of the most cutting-edge software
         platforms in the
-        blockchain space.</p>
+        blockchain space.
+      </p>
     </div>
   </div>
 </div>
 
 <header class="masthead" style="background-image: url('../../../assets/stock/prism.png'); background-color: black">
   <div class="overlay" style="background-image: linear-gradient(to right,rgba(0,0,0,0.25),rgba(75,75,75,0.2),rgba(175,175,175,0.12))"></div>
-  <div class="container" style="padding-left: 12%">
-    <div class="row pt-5 pb-5">
-      <div class="col-lg-12 col-lg-10 mx-auto">
+  <div class="container">
 
-        <h3 class="team-header pb-3 hidden" style="font-size: 28pt">OUR TEAM</h3>
-        <hr width="15%" style="border-width: 7px">
-        <div id="sbsTeamMembers" class="grid">
-          <app-team-member *ngFor="let m of sbsTeamMembers" [fname]="m.fname" [lname]="m.lname"
-                          [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
-        </div>
+    <h3 class="team-header pb-3 hidden" style="font-size: 28pt">OUR TEAM</h3>
+    <hr class="hidden" width="15%" style="border-width: 7px">
+    <div id="sbsTeamMembers" class="grid hidden">
+      <app-team-member *ngFor="let m of sbsTeamMembers" [fname]="m.fname" [lname]="m.lname"
+                      [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
+    </div>
 
-        <h3 class="team-header pb-3 pt-5 hidden">BOARD OF DIRECTORS</h3>
-        <hr width="15%" style="border-width: 7px">
-        <div id="boardOfDirectors" class="grid">
-          <app-team-member *ngFor="let m of boardOfDirectors" [fname]="m.fname" [lname]="m.lname"
-                           [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
-        </div>
+    <h3 class="team-header pb-3 hidden">BOARD OF DIRECTORS</h3>
+    <hr class="hidden" width="15%" style="border-width: 7px">
+    <div id="boardOfDirectors" class="grid hidden">
+      <app-team-member *ngFor="let m of boardOfDirectors" [fname]="m.fname" [lname]="m.lname"
+                       [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
+    </div>
 
-        <h3 class="team-header pb-3 pt-5 hidden">PROFESSIONAL ADVISORS</h3>
-        <hr width="15%" style="border-width: 7px">
-        <div id="professionalAdvisors" class="grid">
-          <app-team-member *ngFor="let m of facultyAdvisors" [fname]="m.fname" [lname]="m.lname"
-                           [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
-        </div>
+    <h3 class="team-header pb-3 hidden">PROFESSIONAL ADVISORS</h3>
+    <hr class="hidden" width="15%" style="border-width: 7px">
+    <div id="professionalAdvisors" class="grid hidden">
+      <app-team-member *ngFor="let m of facultyAdvisors" [fname]="m.fname" [lname]="m.lname"
+                       [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
+    </div>
 
-        <h3 class="team-header pb-3 pt-5 hidden">FACULTY ADVISORS</h3>
-        <hr width="15%" style="border-width: 7px">
-        <div id="facultyAdvisors" class="grid">
-          <app-team-member *ngFor="let m of professionalAdvisors" [fname]="m.fname" [lname]="m.lname"
-                           [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
-        </div>
-
-      </div>
+    <h3 class="team-header pb-3 hidden">FACULTY ADVISORS</h3>
+    <hr class="hidden" width="15%" style="border-width: 7px">
+    <div id="facultyAdvisors" class="grid hidden">
+      <app-team-member *ngFor="let m of professionalAdvisors" [fname]="m.fname" [lname]="m.lname"
+                       [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
     </div>
   </div>
 </header>
+
+
 <header class="masthead" style="background-color: white">
-  <div class="container" style="padding-left: 12%">
-    <div class="row pt-3">
-      <div class="col-lg-12 col-lg-10 mx-auto">
-        <section id="partners">
-        </section>
-        <h3 class="team-header pb-3 pt-5 hidden" style="color: black">OUR PARTNERS</h3>
-        <hr width="15%" style="border-width: 7px">
-        <div class="mt-4 hidden">
-          <img style="width: 450px; padding: 10px 10px 10px 10px" src="img/consensys.png" />
-          <img style="width: 450px; padding: 10px 10px 10px 10px" src="img/msu-hatch.png" />
-          <img style="width: 300px; padding: 10px 10px 10px 10px" src="img/undergrad-entrepreneurship.jpg" />
-          <img style="width: 250px; padding: 10px 10px 10px 10px; border-radius: 10%" src="img/blockchain-at-michigan.png" />
-          <img style="width: 350px; padding: 10px 10px 10px 10px" src="img/blockchain-education-network.png" />
-        </div>
-        <p></p>
-      </div>
+  <div class="container">
+    <h3 class="team-header pb-3 pt-5 hidden" style="color: black">OUR PARTNERS</h3>
+    <hr class="hidden" width="15%" style="border-width: 7px">
+    <div class="mt-4 hidden">
+<!--      <img style="width: 450px; padding: 10px 10px 10px 10px" src="img/consensys.png" />-->
+<!--      <img style="width: 450px; padding: 10px 10px 10px 10px" src="img/msu-hatch.png" />-->
+<!--      <img style="width: 300px; padding: 10px 10px 10px 10px" src="img/undergrad-entrepreneurship.jpg" />-->
+<!--      <img style="width: 250px; padding: 10px 10px 10px 10px; border-radius: 10%" src="img/blockchain-at-michigan.png" />-->
+<!--      <img style="width: 350px; padding: 10px 10px 10px 10px" src="img/blockchain-education-network.png" />-->
     </div>
   </div>
 </header>
