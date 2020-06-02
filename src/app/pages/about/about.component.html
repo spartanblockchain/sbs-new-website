@@ -47,14 +47,14 @@
 
     <h3 class="team-header pb-3 hidden">PROFESSIONAL ADVISORS</h3>
     <hr class="hidden" width="15%" style="border-width: 7px">
-    <div id="professionalAdvisors" class="grid hidden">
+    <div id="professionalAdvisors" class="grid-sm hidden">
       <app-team-member *ngFor="let m of facultyAdvisors" [fname]="m.fname" [lname]="m.lname"
                        [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
     </div>
 
     <h3 class="team-header pb-3 hidden">FACULTY ADVISORS</h3>
     <hr class="hidden" width="15%" style="border-width: 7px">
-    <div id="facultyAdvisors" class="grid hidden">
+    <div id="facultyAdvisors" class="grid-sm hidden">
       <app-team-member *ngFor="let m of professionalAdvisors" [fname]="m.fname" [lname]="m.lname"
                        [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
     </div>
