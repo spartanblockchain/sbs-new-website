@@ -1,11 +1,14 @@
-<div class="container" *ngIf="!submitted">
+<div class="container hidden" *ngIf="!submitted" style="padding-left: 8em; padding-right: 8em;">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="text-center">Contact Us</h2>
+      <h2 class="section-heading">
+        <b>CONTACT US</b>
+      </h2>
+      <p class="hidden gap-top gap-bot">If you have any unanswered questions, concerns, or ideas, please fill out the form below and we'll get back to you as soon as possible!</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-8 offset-2">
+    <div class="col-md-10 offset-1">
       <form class="formstyle" [formGroup]="contactUs" (ngSubmit)="submitForm()">
         <div class="md-form">
           <input

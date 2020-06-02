@@ -1,0 +1,16 @@
+.gap-top {
+    margin-top: 1.5em;
+}
+
+.gap-bot {
+    margin-bottom: 1.5em;
+}
+
+.primary-color-a {
+    text-decoration: none;
+    color: green;
+}
+
+a:focus, a:hover {
+    color: rgb(211, 211, 211);
+  }
