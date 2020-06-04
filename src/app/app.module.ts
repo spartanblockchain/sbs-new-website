@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import {HttpClientModule} from '@angular/common/http';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
@@ -37,6 +39,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     FontAwesomeModule, // https://github.com/FortAwesome/angular-fontawesome 
     FormsModule,
+    HttpModule,
+    HttpClientModule,
     ReactiveFormsModule,
     MDBBootstrapModule.forRoot(),
     AppRoutingModule

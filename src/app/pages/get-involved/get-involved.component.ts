@@ -14,5 +14,4 @@ export class GetInvolvedComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
