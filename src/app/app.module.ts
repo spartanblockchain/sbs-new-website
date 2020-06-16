@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import {NgMediumModule} from 'ng-medium';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -19,6 +20,7 @@ import { ContactFormComponent } from './pages/get-involved/components/contact-fo
 import { TeamMemberComponent } from './pages/about/components/team-member/team-member.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EmbeddedMediumArticlesComponent } from './pages/education/components/embedded-medium-articles/embedded-medium-articles.component';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     GetInvolvedComponent,
     ContactFormComponent,
     TeamMemberComponent,
+    EmbeddedMediumArticlesComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HttpClientModule,
     ReactiveFormsModule,
     MDBBootstrapModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    NgMediumModule
   ],
   providers: [],
   bootstrap: [AppComponent]
