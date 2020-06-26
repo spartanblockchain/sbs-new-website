@@ -39,6 +39,7 @@
     "i": "^0.3.6",
     "jquery": "^3.5.1",
     "mdbootstrap": "^4.19.0",
+    "ng-embed-medium": "^1.0.1",
     "ng-medium": "0.0.6",
     "nodemailer": "^6.4.8",
     "nodemailer-handlebars": "^1.0.1",
