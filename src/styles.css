@@ -10,6 +10,10 @@ p {
     font-size: 18px;
 }
 
+a.hyperlink {
+    color: black;
+}
+
 p a {
     text-decoration: underline;
 }
@@ -49,6 +53,12 @@ h6:hover {
 hr {
     border-color: rgb(0, 165, 0);
     border-width: 2px;
+}
+
+hr.emphasis {
+    border-color: rgb(0, 127, 51);
+    width: 15%;
+    border-width: 7px;
 }
 
 hr.style-two {
