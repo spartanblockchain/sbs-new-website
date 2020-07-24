@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import {NgEmbedMediumModule} from 'ng-embed-medium';
+// import {NgEmbedMediumModule} from 'ng-embed-medium';
 // import {NgMediumModule} from 'ng-medium'
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -47,9 +47,9 @@ import { EmbeddedMediumArticlesComponent } from './pages/education/components/em
     ReactiveFormsModule,
     MDBBootstrapModule.forRoot(),
     AppRoutingModule,
-    NgEmbedMediumModule
+    // NgEmbedMediumModule
   ],
-  providers: [NgEmbedMediumModule],
+  // providers: [NgEmbedMediumModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
