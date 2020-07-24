@@ -107,15 +107,15 @@ export const professionalAdvisors = [
 export const facultyAdvisors = [
   {fname: "Neil", lname: "Kane",
     position: "Director of Undergraduate Entrepreneurship",
-    image: "neil.jpg", link: "https://www.linkedin.com/in/neilkane"
+   image: "neil.jpg", link: "https://www.linkedin.com/in/neilkane"
   },
   {fname: "Carla", lname: "Reyes",
     position: "Assistant Professor of Law & Director of Legal RnD",
-    image: "empty.png", link: "https://www.linkedin.com/in/carla-reyes-67a90181"
+    image: "carlaReyes.jpg", link: "https://www.linkedin.com/in/carla-reyes-67a90181"
   },
   {fname: "Joseph", lname: "Joyce",
     position: "Assistant Professor of Supply Chain Management ",
-    image: "empty.png", link: "https://www.linkedin.com/in/joseph-joyce-ph-d-1803a1/"
+    image: "josephJoyce.jpg", link: "https://www.linkedin.com/in/joseph-joyce-ph-d-1803a1/"
   },
   {fname: "Aubrey", lname: "Wigner",
     position: "Assistant Professor of Entrepreneurship & Innovation",
