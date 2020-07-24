@@ -5,101 +5,109 @@ export const sbsTeamMembers = [
   },
   {fname: "Tyler", lname: "Weisner",
     position: "VP of Technology",
-    image: "empty.png", link: "https://www.linkedin.com/in/tyler-weisner-a7a65715b/"
+    image: "tylerWeisner.jpg", link: "https://www.linkedin.com/in/tyler-weisner-a7a65715b/"
   },
   {fname: "Maggie", lname: "Francis",
     position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+    image: "maggie.jpg", link: "https://www.linkedin.com/in/maggie-francis/"
   },
   {fname: "Syed", lname: "Zaidi",
     position: "VP of Marketing",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+    image: "syed.jpg", link: "https://www.linkedin.com/in/syed-akbar-zaidi/"
   },
   {fname: "Sawyer", lname: "Ruben",
     position: "VP of Business Development",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+    image: "sawyerRuben.jpg", link: "https://www.sawyerru.github.io/resume/"
   },
   {fname: "Chris", lname: "Nosowsky",
     position: "Lead Developer",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+    image: "chris.png", link: "https://www.linkedin.com/in/christopher-nosowsky/"
   },
   {fname: "Parker", lname: "Nolan",
     position: "Project Manager",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+    image: "parker.png", link: "https://www.linkedin.com/in/parkernolan/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Kiinga", lname: "Kioi",
+    position: "Technical Analyst",
+    image: "kiinga.jpg", link: "https://www.linkedin.com/in/kiinga-kioi-18064816a/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Anna", lname: "De Biasi",
+    position: "Technical Analyst",
+    image: "anna2.jpeg", link: "https://www.linkedin.com/in/anna-debiasi/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Abhi", lname: "Vyas",
+    position: "Technical Analyst",
+    image: "abhi.png", link: "https://www.linkedin.com/in/abhijit-vyas-706784141/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Advik", lname: "Agrawal",
+    position: "Business Analyst",
+    image: "advik.jpg", link: "https://www.linkedin.com/in/advikag/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Drew", lname: "Goretzka",
+    position: "Contributing Writer",
+    image: "drew.png", link: "https://www.linkedin.com/in/drewgoretzka/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Gabriel", lname: "Aroh",
+    position: "Technical Analyst",
+    image: "gabriel.png", link: "https://www.linkedin.com/in/gabriel-ebuka-aroh-598406156/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
+  {fname: "Ian", lname: "Berriel",
+    position: "Technical Analyst",
+    image: "ian.jpg", link: "https://www.linkedin.com/in/maggie-francis/"
   },
-  {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
-    image: "empty.png", link: "https://www.linkedin.com/in/maggie-francis/"
-  }
+  {fname: "Jerry", lname: "LaGore",
+    position: "Technical Analyst",
+    image: "jerry.jpg", link: "https://www.linkedin.com/in/jerrylagore/"
+  },
+  {fname: "Zachariah", lname: "Dittenbir",
+  position: "Business Analyst",
+  image: "zach.jpg", link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
+  },
+  {fname: "Olivia", lname: "Simone",
+  position: "Executive Editor of Marketing",
+  image: "olivia.jpg", link: "https://www.linkedin.com/in/olivia-simone-993229190/"
+  },
 
 ]
 
 export const boardOfDirectors = [
   {fname: "Siddhant", lname: "Chhabra",
     position: "Bytelion",
-    image: "empty.png", link: "https://www.linkedin.com/in/siddhant-chhabra/"
+    image: "sidd.jpg", link: "https://www.linkedin.com/in/siddhant-chhabra/"
   },
   {fname: "Andrew", lname: "Mardquart",
     position: "Accenture",
-    image: "empty.png", link: "https://www.linkedin.com/in/andrewgmarquardt/"
+    image: "andrew.png", link: "https://www.linkedin.com/in/andrewgmarquardt/"
   },
   {fname: "Sean", lname: "Kennedy",
     position: "MSU Master's of Computer Science",
-    image: "empty.png", link: "https://www.linkedin.com/in/sean-kennedy-096ba616b/"
+    image: "seanKennedy.jpg", link: "https://www.linkedin.com/in/sean-kennedy-096ba616b/"
   }
 ]
 
 export const professionalAdvisors = [
   {fname: "Rohun", lname: "Jauhar",
     position: "Jauhar Capital",
-    image: "empty.png", link: "https://www.linkedin.com/in/rohunjauhar"
+    image: "rohun.jpg", link: "https://www.linkedin.com/in/rohunjauhar"
   },
   {fname: "Jeff", lname: "Rayis",
     position: "Michigan State University",
-    image: "empty.png", link: "https://www.linkedin.com/in/jeffrayis"
+    image: "jeff.jpg", link: "https://www.linkedin.com/in/jeffrayis"
   },
   {fname: "Jeff", lname: "Wesley",
     position: "Red Cedar Ventures",
-    image: "empty.png", link: "https://www.linkedin.com/in/jeff-wesley-2026549/"
+    image: "jeffw.jpg", link: "https://www.linkedin.com/in/jeff-wesley-2026549/"
   },
   {fname: "David", lname: "Smith",
     position: "Bitcoin Bulls",
-    image: "empty.png", link: "https://www.linkedin.com/in/davidssmith/"
+    image: "david.jpg", link: "https://www.linkedin.com/in/davidssmith/"
   }
 ]
 
 export const facultyAdvisors = [
   {fname: "Neil", lname: "Kane",
     position: "Director of Undergraduate Entrepreneurship",
-    image: "empty.png", link: "https://www.linkedin.com/in/neilkane"
+    image: "neil.jpg", link: "https://www.linkedin.com/in/neilkane"
   },
   {fname: "Carla", lname: "Reyes",
     position: "Assistant Professor of Law & Director of Legal RnD",
@@ -111,6 +119,6 @@ export const facultyAdvisors = [
   },
   {fname: "Aubrey", lname: "Wigner",
     position: "Assistant Professor of Entrepreneurship & Innovation",
-    image: "empty.png", link: "https://www.linkedin.com/in/aubrey-wigner-2300459a/"
+    image: "aubrey.jpg", link: "https://www.linkedin.com/in/aubrey-wigner-2300459a/"
   }
 ]
