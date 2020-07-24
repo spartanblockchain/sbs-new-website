@@ -80,37 +80,37 @@ export const boardOfDirectors = [
 export const professionalAdvisors = [
   {fname: "Rohun", lname: "Jauhar",
     position: "Jauhar Capital",
-    image: "empty.png", link: "https://www.linkedin.com/in/rohunjauhar"
+    image: "jauharRohun.jpg", link: "https://www.linkedin.com/in/rohunjauhar"
   },
   {fname: "Jeff", lname: "Rayis",
     position: "Michigan State University",
-    image: "empty.png", link: "https://www.linkedin.com/in/jeffrayis"
+    image: "jeffRayis.jpg", link: "https://www.linkedin.com/in/jeffrayis"
   },
   {fname: "Jeff", lname: "Wesley",
     position: "Red Cedar Ventures",
-    image: "empty.png", link: "https://www.linkedin.com/in/jeff-wesley-2026549/"
+    image: "jeffWesley.jpg", link: "https://www.linkedin.com/in/jeff-wesley-2026549/"
   },
   {fname: "David", lname: "Smith",
     position: "Bitcoin Bulls",
-    image: "empty.png", link: "https://www.linkedin.com/in/davidssmith/"
+    image: "davidSmith.jpg", link: "https://www.linkedin.com/in/davidssmith/"
   }
 ]
 
 export const facultyAdvisors = [
   {fname: "Neil", lname: "Kane",
     position: "Director of Undergraduate Entrepreneurship",
-    image: "empty.png", link: "https://www.linkedin.com/in/neilkane"
+    image: "neilKane.jpg", link: "https://www.linkedin.com/in/neilkane"
   },
   {fname: "Carla", lname: "Reyes",
     position: "Assistant Professor of Law & Director of Legal RnD",
-    image: "empty.png", link: "https://www.linkedin.com/in/carla-reyes-67a90181"
+    image: "carlaReyes.jpg", link: "https://www.linkedin.com/in/carla-reyes-67a90181"
   },
   {fname: "Joseph", lname: "Joyce",
     position: "Assistant Professor of Supply Chain Management ",
-    image: "empty.png", link: "https://www.linkedin.com/in/joseph-joyce-ph-d-1803a1/"
+    image: "josephJoyce.jpg", link: "https://www.linkedin.com/in/joseph-joyce-ph-d-1803a1/"
   },
   {fname: "Aubrey", lname: "Wigner",
     position: "Assistant Professor of Entrepreneurship & Innovation",
-    image: "empty.png", link: "https://www.linkedin.com/in/aubrey-wigner-2300459a/"
+    image: "aubreyWigner.jpg", link: "https://www.linkedin.com/in/aubrey-wigner-2300459a/"
   }
 ]
