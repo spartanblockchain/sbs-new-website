@@ -8,6 +8,7 @@ export class ContactFormService {
   constructor(private http: Http) {}
 
   sendEmail(body) {
-    return this.http.post('http://localhost:3000/sendEmail', body);
+    console.log('HERE')
+    return this.http.post('https://spartan-blockchain-contact.herokuapp.com/sendEmail', body); // Heroku API Endpoint
   }
 }
