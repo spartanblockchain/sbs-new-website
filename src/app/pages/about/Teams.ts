@@ -3,20 +3,20 @@ export const sbsTeamMembers = [
    position: "President",
    image: "seanKennedy.jpg", link: "https://www.linkedin.com/in/sean-b-kennedy/"
   },
-  {fname: "Tyler", lname: "Weisner",
-    position: "VP of Technology",
-    image: "tylerWeisner.jpg", link: "https://www.linkedin.com/in/tyler-weisner-a7a65715b/"
-  },
   {fname: "Maggie", lname: "Francis",
-    position: "VP of Diversity and Inclusion",
+    position: "Vice President of Diversity and Inclusion",
     image: "maggie.jpg", link: "https://www.linkedin.com/in/maggie-francis/"
   },
+  {fname: "Tyler", lname: "Weisner",
+    position: "Vice President of Technology",
+    image: "tylerWeisner.jpg", link: "https://www.linkedin.com/in/tyler-weisner-a7a65715b/"
+  },
   {fname: "Syed", lname: "Zaidi",
-    position: "VP of Marketing",
+    position: "Vice President of Marketing",
     image: "syed.jpg", link: "https://www.linkedin.com/in/syed-akbar-zaidi/"
   },
   {fname: "Sawyer", lname: "Ruben",
-    position: "VP of Business Development",
+    position: "Vice President of Business Development",
     image: "sawyerRuben.jpg", link: "https://www.sawyerru.github.io/resume/"
   },
   {fname: "Chris", lname: "Nosowsky",
@@ -27,21 +27,13 @@ export const sbsTeamMembers = [
     position: "Project Manager",
     image: "parker.png", link: "https://www.linkedin.com/in/parkernolan/"
   },
-  {fname: "Kiinga", lname: "Kioi",
-    position: "Technical Analyst",
-    image: "kiinga.jpg", link: "https://www.linkedin.com/in/kiinga-kioi-18064816a/"
-  },
   {fname: "Anna", lname: "De Biasi",
-    position: "Technical Analyst",
-    image: "anna2.jpeg", link: "https://www.linkedin.com/in/anna-debiasi/"
+    position: "Senior Developer",
+    image: "anna.jpg", link: "https://www.linkedin.com/in/anna-debiasi/"
   },
   {fname: "Abhi", lname: "Vyas",
     position: "Technical Analyst",
     image: "abhi.png", link: "https://www.linkedin.com/in/abhijit-vyas-706784141/"
-  },
-  {fname: "Advik", lname: "Agrawal",
-    position: "Business Analyst",
-    image: "advik.jpg", link: "https://www.linkedin.com/in/advikag/"
   },
   {fname: "Drew", lname: "Goretzka",
     position: "Contributing Writer",
@@ -51,9 +43,21 @@ export const sbsTeamMembers = [
     position: "Technical Analyst",
     image: "gabriel.png", link: "https://www.linkedin.com/in/gabriel-ebuka-aroh-598406156/"
   },
+  {fname: "Kyle", lname: "Kraski",
+    position: "Technical Analyst",
+    image: "kyle.png", link: "https://www.linkedin.com/in/advikag/"
+  },
+  {fname: "Advik", lname: "Agrawal",
+    position: "Business Analyst",
+    image: "advik.JPG", link: "https://www.linkedin.com/in/advikag/"
+  },
   {fname: "Ian", lname: "Berriel",
     position: "Technical Analyst",
     image: "ian.jpg", link: "https://www.linkedin.com/in/maggie-francis/"
+  },
+  {fname: "Kiinga", lname: "Kioi",
+    position: "Technical Analyst",
+    image: "kiinga.jpg", link: "https://www.linkedin.com/in/kiinga-kioi-18064816a/"
   },
   {fname: "Jerry", lname: "LaGore",
     position: "Technical Analyst",
@@ -61,7 +65,7 @@ export const sbsTeamMembers = [
   },
   {fname: "Zachariah", lname: "Dittenbir",
   position: "Business Analyst",
-  image: "zach.jpg", link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
+  image: "zach.JPG", link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
   },
   {fname: "Olivia", lname: "Simone",
   position: "Executive Editor of Marketing",
@@ -108,10 +112,6 @@ export const facultyAdvisors = [
   {fname: "Neil", lname: "Kane",
     position: "Director of Undergraduate Entrepreneurship",
    image: "neil.jpg", link: "https://www.linkedin.com/in/neilkane"
-  },
-  {fname: "Carla", lname: "Reyes",
-    position: "Assistant Professor of Law & Director of Legal RnD",
-    image: "carlaReyes.jpg", link: "https://www.linkedin.com/in/carla-reyes-67a90181"
   },
   {fname: "Joseph", lname: "Joyce",
     position: "Assistant Professor of Supply Chain Management ",

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EducationComponent implements OnInit {
 
   TITLE: string = "Education";
-  DESCRIPTION: string = "Education Description"
+  DESCRIPTION: string = "";
   
   constructor() { }
 

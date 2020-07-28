@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventsComponent implements OnInit {
 
   TITLE: string = "Events";
-  DESCRIPTION: string = "Events Description"
+  DESCRIPTION: string = "";
 
   constructor() { }
 

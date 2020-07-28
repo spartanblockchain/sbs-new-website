@@ -1,8 +1,9 @@
 .profileImgSbs {
-  width: 250px;
-  height: 250px;
+    width: 250px;
+    height: 250px;
+    margin-top: 1em;
 }
 
 .position-name {
-  font-size: 20px
+    font-size: 20px
 }

@@ -9,7 +9,7 @@ import { sbsTeamMembers, boardOfDirectors, facultyAdvisors, professionalAdvisors
 export class AboutComponent implements OnInit {
 
   TITLE: string = "About Us";
-  DESCRIPTION: string = "About Us Description"
+  DESCRIPTION: string = ""
   sbsTeamMembers = sbsTeamMembers;
   boardOfDirectors = boardOfDirectors;
   facultyAdvisors = facultyAdvisors;
