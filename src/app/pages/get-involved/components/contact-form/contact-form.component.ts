@@ -59,13 +59,9 @@ export class ContactFormComponent implements OnInit {
       involvedSubject: this.selectedOption,
       briefDescription: this.contactUs.get('briefDescription').value
     };
-    console.log('hereeeee')
     this.contactFormService.sendEmail(this.messageContents).subscribe(
       data => (this.messageContents = data),
-      error => {
-        this.error = error
-        console.log(this.error)
-      }
+      error => (this.error = error)
     );
     this.submitted = true;
   }
