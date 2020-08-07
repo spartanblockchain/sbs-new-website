@@ -21,7 +21,7 @@ export const sbsTeamMembers = [
   },
   {fname: "Chris", lname: "Nosowsky",
     position: "Lead Developer",
-    image: "chris.png", link: "https://www.linkedin.com/in/christopher-nosowsky/"
+    image: "chris.jpg", link: "https://www.linkedin.com/in/christopher-nosowsky/"
   },
   {fname: "Parker", lname: "Nolan",
     position: "Project Manager",

@@ -22,7 +22,8 @@
 <header class="masthead" style="background-image: url('../../../assets/stock/prism.png'); background-color: black">
     <div class="overlay" style="background-image: linear-gradient(to right,rgba(0,0,0,0.25),rgba(75,75,75,0.2),rgba(175,175,175,0.12))"></div>
     <div class="container">
-
+        <section id="our-team">
+        </section>
         <h3 class="team-header pb-3 hidden" style="font-size: 28pt">OUR TEAM</h3>
         <hr class="hidden mb-3" width="15%" style="border-width: 7px">
         <div id="sbsTeamMembers" class="grid hidden">
@@ -34,7 +35,8 @@
         <div id="boardOfDirectors" class="grid hidden">
             <app-team-member *ngFor="let m of boardOfDirectors" [fname]="m.fname" [lname]="m.lname" [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
         </div>
-
+        <section id="our-advisors">
+        </section>
         <h3 class="team-header pb-3 hidden">PROFESSIONAL ADVISORS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
         <div id="professionalAdvisors" class="grid hidden">
@@ -52,6 +54,8 @@
 
 <header class="masthead" style="background-color: white">
     <div class="container">
+        <section id="our-partners">
+        </section>
         <h3 class="team-header pb-3 pt-5 hidden" style="color: black">UNIVERSITY PARTNERS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
         <div class="mt-4 hidden">
