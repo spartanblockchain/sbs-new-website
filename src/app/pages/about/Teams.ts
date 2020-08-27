@@ -113,10 +113,6 @@ export const facultyAdvisors = [
     position: "Director of Undergraduate Entrepreneurship",
    image: "neil.jpg", link: "https://www.linkedin.com/in/neilkane"
   },
-  {fname: "Joseph", lname: "Joyce",
-    position: "Assistant Professor of Supply Chain Management ",
-    image: "josephJoyce.jpg", link: "https://www.linkedin.com/in/joseph-joyce-ph-d-1803a1/"
-  },
   {fname: "Aubrey", lname: "Wigner",
     position: "Assistant Professor of Entrepreneurship & Innovation",
     image: "aubrey.jpg", link: "https://www.linkedin.com/in/aubrey-wigner-2300459a/"
