@@ -11,11 +11,16 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="dropbtn" [routerLink]="['']" routerLinkActive="router-link-active">Home</button>
+                        <button class="dropbtn" [routerLink]="['']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">Home</button>
                         <div class="dropdown-content" style="background-color: white">
-                            <a class="page-scroll" href="#who-are-we">Our Services</a>
-                            <a class="page-scroll" href="#our-pillars">Our Pillars</a>
-                            <a class="page-scroll" href="#project-proposals">Project Proposals</a>
+                            <a class="page-scroll" href="#our-services" [routerLink]="['']" 
+                            fragment="our-services">Our Services</a>
+                            <a class="page-scroll" href="#our-pillars" [routerLink]="['']" 
+                            fragment="our-pillars">Our Pillars</a>
+                            <a class="page-scroll" href="#project-proposals" [routerLink]="['']" 
+                            fragment="project-proposals">Project Proposals</a>
+                            <a class="page-scroll" href="#news" [routerLink]="['']" 
+                            fragment="news">News</a>
                         </div>
                     </div>
                 </li>
@@ -23,10 +28,14 @@
                     <div class="dropdown">
                         <button class="dropbtn" [routerLink]="['/about-us']" routerLinkActive="router-link-active">About Us</button>
                         <div class="dropdown-content">
-                            <a class="page-scroll" href="about-us#who-are-we">Who Are We?</a>
-                            <a class="page-scroll" href="about-us#sbs-team">Our Team</a>
-                            <a class="page-scroll" href="about-us#advisors">Our Advisors</a>
-                            <a class="page-scroll" href="about-us#partners">Our Partners</a>
+                            <a class="page-scroll" href="about-us#who-are-we" [routerLink]="['/about-us']" 
+                            fragment="who-are-we">Who Are We?</a>
+                            <a class="page-scroll" href="about-us#sbs-team" [routerLink]="['/about-us']" 
+                            fragment="our-team">Our Team</a>
+                            <a class="page-scroll" href="about-us#advisors" [routerLink]="['/about-us']" 
+                            fragment="our-advisors">Our Advisors</a>
+                            <a class="page-scroll" href="about-us#partners" [routerLink]="['/about-us']" 
+                            fragment="our-partners">Our Partners</a>
                         </div>
                     </div>
                 </li>
@@ -34,10 +43,10 @@
                     <div class="dropdown">
                         <button class="dropbtn" [routerLink]="['/education']" routerLinkActive="router-link-active">Education</button>
                         <div class="dropdown-content">
-                            <a class="page-scroll" href="education#what-is-blockchain">What is Blockchain?</a>
-                            <a class="page-scroll" href="education#our-workshops">Our Workshops</a>
-                            <a class="page-scroll" href="education#blockchain-foundations-and-applications">Blockchain:
-                  Foundations and Applications</a>
+                            <a class="page-scroll" href="education#what-is-blockchain" [routerLink]="['/education']" 
+                            fragment="what-is-blockchain">What is Blockchain?</a>
+                            <a class="page-scroll" href="education#our-workshops" [routerLink]="['/education']" 
+                            fragment="our-workshops">Our Workshops</a>
                         </div>
                     </div>
                 </li>
@@ -45,9 +54,12 @@
                     <div class="dropdown">
                         <button class="dropbtn" [routerLink]="['/events']" routerLinkActive="router-link-active">Events</button>
                         <div class="dropdown-content">
-                            <a class="page-scroll" href="events#meetup">Community Meetup</a>
-                            <a class="page-scroll" href="events#case-competition">Pitch Competition</a>
-                            <a class="page-scroll" href="events#upcoming-events">Other Events</a>
+                            <a class="page-scroll" href="events#meetup" [routerLink]="['/events']" 
+                            fragment="meetup">Community Meetup</a>
+                            <a class="page-scroll" href="events#case-competition" [routerLink]="['/events']" 
+                            fragment="case-competition">Pitch Competition</a>
+                            <a class="page-scroll" href="events#upcoming-events" [routerLink]="['/events']" 
+                            fragment="upcoming-events">Other Events</a>
                         </div>
                     </div>
                 </li>
@@ -55,10 +67,14 @@
                     <div class="dropdown">
                         <button class="dropbtn" [routerLink]="['/get-involved']" routerLinkActive="router-link-active">Get Involved</button>
                         <div class="dropdown-content">
-                            <a class="page-scroll" href="get-involved#open-positions">Open Positions</a>
-                            <a class="page-scroll" href="get-involved#become-a-sponsor">Become a Sponsor</a>
-                            <a class="page-scroll" href="get-involved#join-our-newsletter">Join Our Newsletter</a>
-                            <a class="page-scroll" href="get-involved#contact-us">Contact Us</a>
+                            <a class="page-scroll" href="get-involved#open-positions" [routerLink]="['/get-involved']" 
+                            fragment="open-positions">Open Positions</a>
+                            <a class="page-scroll" href="get-involved#become-a-sponsor" [routerLink]="['/get-involved']" 
+                            fragment="become-a-sponsor">Become a Sponsor</a>
+                            <a class="page-scroll" href="get-involved#join-our-newsletter" [routerLink]="['/get-involved']" 
+                            fragment="join-our-newsletter">Join Our Newsletter</a>
+                            <a class="page-scroll" href="get-involved#contact-us" [routerLink]="['/get-involved']" 
+                            fragment="contact-us">Contact Us</a>
                         </div>
                     </div>
                 </li>

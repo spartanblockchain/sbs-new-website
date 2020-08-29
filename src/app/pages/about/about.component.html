@@ -21,27 +21,29 @@
 
 <header class="masthead" style="background-image: url('../../../assets/stock/prism.png'); background-color: black">
     <div class="overlay" style="background-image: linear-gradient(to right,rgba(0,0,0,0.25),rgba(75,75,75,0.2),rgba(175,175,175,0.12))"></div>
-    <div class="container">
-
-        <h3 class="team-header pb-3 hidden" style="font-size: 28pt">OUR TEAM</h3>
+    <div class="container" align="center">
+        <section id="our-team">
+        </section>
+        <h3 class="team-header pb-2 hidden" style="font-size: 28pt">OUR TEAM</h3>
         <hr class="hidden mb-3" width="15%" style="border-width: 7px">
         <div id="sbsTeamMembers" class="grid hidden">
             <app-team-member *ngFor="let m of sbsTeamMembers" [fname]="m.fname" [lname]="m.lname" [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
         </div>
 
-        <h3 class="team-header pb-3 hidden">BOARD OF DIRECTORS</h3>
+        <h3 class="team-header pb-2 hidden">BOARD OF DIRECTORS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
         <div id="boardOfDirectors" class="grid hidden">
             <app-team-member *ngFor="let m of boardOfDirectors" [fname]="m.fname" [lname]="m.lname" [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
         </div>
-
-        <h3 class="team-header pb-3 hidden">PROFESSIONAL ADVISORS</h3>
+        <section id="our-advisors">
+        </section>
+        <h3 class="team-header pb-2 hidden">FACULTY ADVISORS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
-        <div id="professionalAdvisors" class="grid hidden">
+        <div id="professionalAdvisors" class="hidden grid">
             <app-team-member *ngFor="let m of facultyAdvisors" [fname]="m.fname" [lname]="m.lname" [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
         </div>
 
-        <h3 class="team-header pb-3 hidden">FACULTY ADVISORS</h3>
+        <h3 class="team-header pb-2 hidden">PROFESSIONAL ADVISORS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
         <div id="facultyAdvisors" class="grid-sm hidden">
             <app-team-member *ngFor="let m of professionalAdvisors" [fname]="m.fname" [lname]="m.lname" [img]="m.image" [link]="m.link" [position]="m.position"></app-team-member>
@@ -51,32 +53,42 @@
 
 
 <header class="masthead" style="background-color: white">
-    <div class="container">
+    <div class="container" align="center">
+        <section id="our-partners">
+        </section>
         <h3 class="team-header pb-3 pt-5 hidden" style="color: black">UNIVERSITY PARTNERS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
-        <div class="mt-4 hidden">
-            <img class="img-padding" style="width: 500px;" src="../../../assets/images/logos/consensys.png" />
-            <img class="img-padding" style="width: 500px;" src="../../../assets/images/logos/msu-hatch.png" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/undergrad-entrepreneurship.jpg" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/blockchain-at-michigan.png" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/blockchain-education-network.png" />
+        <div class="mt-4 mb-5 hidden" align="center">
+            <a href="https://www.linkedin.com/company/blockchain-iu/">
+                <img class="img-padding" style="width: 300px;" src="../../../assets/images/logos/blockchain-iu.png" />
+            </a>
+            <a href="https://www.michiganblockchain.org/">
+                <img class="img-padding" style="width: 250px;" src="../../../assets/images/logos/blockchain-at-michigan.png" />
+            </a>
+            <a href="https://mubc.io/">
+                <img class="img-padding pl-5 pr-5" style="width: 300px;" src="../../../assets/images/logos/mubc.PNG" />
+            </a>
+            <a href="https://www.metllab.com/">
+                <img class="img-padding pr-5" style="width: 400px;" src="../../../assets/images/logos/metl.PNG" />
+            </a>
+            <a>
+                <img class="img-padding" style="width: 280px;" src="../../../assets/images/logos/blockchain-luc.PNG" />
+            </a>
         </div>
     </div>
 </header>
 
 <header class="masthead" style="background-color: white">
-    <div class="container">
+    <div class="container" align="center">
         <h3 class="team-header pb-3 pt-5 hidden" style="color: black">CORPORATE PARTNERS</h3>
         <hr class="hidden" width="15%" style="border-width: 7px">
-        <div class="mt-4 hidden">
-            <img class="img-padding" style="width: 500px;" src="../../../assets/images/logos/consensys.png" />
-            <img class="img-padding" style="width: 500px;" src="../../../assets/images/logos/msu-hatch.png" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/undergrad-entrepreneurship.jpg" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/blockchain-at-michigan.png" />
-            <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/blockchain-education-network.png" />
+        <div class="mt-4 mb-5 hidden">
+            <a href="https://blockchainedu.org/">
+                <img class="img-padding" style="width: 250px;" src="../../../assets/images/logos/blockchain-education-network.png" />
+            </a>
+            <a href="https://www.mousebelt.com/">
+                <img class="img-padding" style="width: 333px;" src="../../../assets/images/logos/mousebelt.jfif" />
+            </a>
         </div>
     </div>
 </header>
-
-
-<hr>
