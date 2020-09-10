@@ -24,7 +24,11 @@ export class TeamMemberComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+<<<<<<< HEAD
     this.fullPath = "/src/assets/profileImages/" + this.img;
+=======
+    this.fullPath = "assets/images/profileImages/" + this.img;
+>>>>>>> 4ad1afa4fe4b704758342515691af889d903e0b9
   }
 
 }

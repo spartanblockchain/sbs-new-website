@@ -45,11 +45,15 @@ export const sbsTeamMembers = [
   },
   {fname: "Kyle", lname: "Kraski",
     position: "Technical Analyst",
-    image: "kyle.png", link: "https://www.linkedin.com/in/advikag/"
+    image: "kyle.png", link: "https://www.linkedin.com/in/kyle-kraski-590386171/"
   },
   {fname: "Advik", lname: "Agrawal",
     position: "Business Analyst",
     image: "advik.JPG", link: "https://www.linkedin.com/in/advikag/"
+  },
+  {fname: "Neil", lname: "Potdukhe",
+    position: "Technical Analyst",
+    image: "neil-p.JPG", link: "https://www.linkedin.com/in/neil-p-039814122/"
   },
   {fname: "Ian", lname: "Berriel",
     position: "Technical Analyst",
@@ -79,7 +83,7 @@ export const boardOfDirectors = [
     position: "Bytelion",
     image: "sidd.jpg", link: "https://www.linkedin.com/in/siddhant-chhabra/"
   },
-  {fname: "Andrew", lname: "Mardquart",
+  {fname: "Andrew", lname: "Marquardt",
     position: "Accenture",
     image: "andrew.png", link: "https://www.linkedin.com/in/andrewgmarquardt/"
   },
