@@ -9,7 +9,7 @@ export const sbsTeamMembers = [
   },
   {fname: "Tyler", lname: "Weisner",
     position: "Vice President of Technology",
-    image: "tylerWeisner.jpg", link: "https://www.linkedin.com/in/tyler-weisner-a7a65715b/"
+    image: "tylerWeisner.jpg", link: "https://www.linkedin.com/in/tyler-weisner/"
   },
   {fname: "Syed", lname: "Zaidi",
     position: "Vice President of Marketing",
@@ -43,10 +43,6 @@ export const sbsTeamMembers = [
     position: "Technical Analyst",
     image: "gabriel.png", link: "https://www.linkedin.com/in/gabriel-ebuka-aroh-598406156/"
   },
-  {fname: "Kyle", lname: "Kraski",
-    position: "Technical Analyst",
-    image: "kyle.png", link: "https://www.linkedin.com/in/kyle-kraski-590386171/"
-  },
   {fname: "Advik", lname: "Agrawal",
     position: "Business Analyst",
     image: "advik.JPG", link: "https://www.linkedin.com/in/advikag/"
@@ -68,13 +64,41 @@ export const sbsTeamMembers = [
     image: "jerry.jpg", link: "https://www.linkedin.com/in/jerrylagore/"
   },
   {fname: "Zachariah", lname: "Dittenbir",
-  position: "Business Analyst",
-  image: "zach.JPG", link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
+    position: "Business Analyst",
+    image: "zach.JPG", link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
   },
   {fname: "Olivia", lname: "Simone",
-  position: "Executive Editor of Marketing",
-  image: "olivia.jpg", link: "https://www.linkedin.com/in/olivia-simone-993229190/"
+    position: "Executive Editor of Marketing",
+    image: "olivia.jpg", link: "https://www.linkedin.com/in/olivia-simone-993229190/"
   },
+  {fname: "Arriyan", lname: "Raza",
+    position: "Business Analyst",
+    image: "arriyan.JPG", link: "https://www.linkedin.com/in/raza-msu/"
+  },
+  {fname: "Ashu", lname: "Acharya",
+    position: "Technical Analyst",
+    image: "ashu.JPG", link: "https://www.linkedin.com/in/ashu-acharya-5314ba166"
+  },
+  {fname: "Mateo", lname: "Marchan",
+    position: "Business Analyst",
+    image: "mateo.jpg", link: "https://www.linkedin.com/in/mateomarchan/"
+  },
+  {fname: "Nikita", lname: "Gupta",
+    position: "Technical Analyst",
+    image: "nikita.jpg", link: "https://www.linkedin.com/in/nikitagupta2000/"
+  },
+  {fname: "Sungyu", lname: "Kwon",
+    position: "Technical Analyst",
+    image: "sungyu.jpg", link: "https://www.linkedin.com/in/sungyu-kwon-8a0271169/"
+  },
+  {fname: "Freddy", lname: "Merlin",
+    position: "Technical Analyst",
+    image: "freddy.jpg", link: "https://www.linkedin.com/in/freddymerlin/"
+  },
+  {fname: "Austin", lname: "Sobie",
+    position: "Business Analyst",
+    image: "", link: "https://www.linkedin.com/in/austin-sobie-57809264/"
+  }
 
 ]
 
