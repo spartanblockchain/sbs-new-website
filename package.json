@@ -38,6 +38,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "hammerjs": "^2.0.8",
+    "husky": "^4.3.8",
     "i": "^0.3.6",
     "jquery": "^3.5.1",
     "mdbootstrap": "^4.19.0",
@@ -51,6 +52,11 @@
     "smooth-scroll": "^16.1.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build && git add docs && git commit -m'rebuilt docs folder for gh-pages'"
+    }
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.901.7",
