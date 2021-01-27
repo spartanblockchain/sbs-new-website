@@ -2084,7 +2084,7 @@ class PageHeadingComponent {
     }
 }
 PageHeadingComponent.ɵfac = function PageHeadingComponent_Factory(t) { return new (t || PageHeadingComponent)(); };
-PageHeadingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PageHeadingComponent, selectors: [["app-page-heading"]], inputs: { pageTitle: "pageTitle", pageDescription: "pageDescription" }, decls: 14, vars: 2, consts: [[1, "masthead", "hero-bkg-animated", 2, "background-image", "url('assets/images/graphics/cubes.png')"], [1, "overlay"], [1, "container"], [1, "row"], [1, "col-lg-12", "col-md-12", "mx-auto"], [1, "typewriter", "page-heading", "hidden"], [2, "text-align", "right", "font-size", "70px"], [1, "style-two"], [2, "color", "white", "font-size", "21px", "font-weight", "500", "text-align", "right"], [2, "float", "right", "padding", "30px"], ["href", "https://msu.joinhandshake.com/postings?page=1&per_page=25&sort_direction=desc&sort_column=default&query=spartan%20blockchain", 1, "btn", "page-scroll", 2, "border-color", "green", "border-radius", "8px", "color", "white"]], template: function PageHeadingComponent_Template(rf, ctx) { if (rf & 1) {
+PageHeadingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PageHeadingComponent, selectors: [["app-page-heading"]], inputs: { pageTitle: "pageTitle", pageDescription: "pageDescription" }, decls: 11, vars: 2, consts: [[1, "masthead", "hero-bkg-animated", 2, "background-image", "url('assets/images/graphics/cubes.png')"], [1, "overlay"], [1, "container"], [1, "row"], [1, "col-lg-12", "col-md-12", "mx-auto"], [1, "typewriter", "page-heading", "hidden"], [2, "text-align", "right", "font-size", "70px"], [1, "style-two"], [2, "color", "white", "font-size", "21px", "font-weight", "500", "text-align", "right"]], template: function PageHeadingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -2097,11 +2097,6 @@ PageHeadingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "hr", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h2", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Apply Now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
