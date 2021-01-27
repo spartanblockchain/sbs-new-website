@@ -6,6 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Deploying to Github Pages
+
+Before you make a push to the `prod` branch you mush run the command `npm run build` which will rebuild the `docs` folder that Github Pages deploys from with the updates. After that you will have to do the following commands:
+
+
+```
+git add docs
+git commit -m"rebuilt docs folder for gh-pages"
+```
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
