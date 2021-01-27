@@ -42,6 +42,7 @@
     "i": "^0.3.6",
     "jquery": "^3.5.1",
     "mdbootstrap": "^4.19.0",
+    "merge2": "^1.4.1",
     "ng-embed-medium": "^1.0.5",
     "ng-medium": "0.0.6",
     "nodemailer": "^6.4.8",
