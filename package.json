@@ -55,7 +55,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run build && git add docs && git commit -m'rebuilt docs folder for gh-pages'"
+      "pre-commit": "echo DO NOT FORGET TO RUN npm run build"
     }
   },
   "devDependencies": {
