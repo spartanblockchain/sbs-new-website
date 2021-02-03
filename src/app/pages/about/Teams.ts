@@ -39,10 +39,6 @@ export const sbsTeamMembers = [
     position: "Contributing Writer",
     image: "drew.png", link: "https://www.linkedin.com/in/drewgoretzka/"
   },
-  {fname: "Gabriel", lname: "Aroh", 
-    position: "Technical Analyst",
-    image: "gabriel.png", link: "https://www.linkedin.com/in/gabriel-ebuka-aroh-598406156/"
-  },
   {fname: "Advik", lname: "Agrawal",
     position: "Business Analyst",
     image: "advik.JPG", link: "https://www.linkedin.com/in/advikag/"
@@ -77,7 +73,7 @@ export const sbsTeamMembers = [
   },
   {fname: "Ashu", lname: "Acharya",
     position: "Technical Analyst",
-    image: "ashu.JPG", link: "https://www.linkedin.com/in/ashu-acharya-5314ba166"
+    image: "ashu.PNG", link: "https://www.linkedin.com/in/ashu-acharya-5314ba166"
   },
   {fname: "Mateo", lname: "Marchan",
     position: "Business Analyst",
