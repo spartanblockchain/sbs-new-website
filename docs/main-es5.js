@@ -1355,9 +1355,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     EducationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: EducationComponent,
       selectors: [["app-education"]],
-      decls: 68,
+      decls: 69,
       vars: 2,
-      consts: [[3, "pageTitle", "pageDescription"], [1, "masthead", 2, "background-image", "linear-gradient(to right,white,white,rgb(236, 236, 236))"], [1, "container"], [1, "row", "pb-5"], [1, "col-lg-12", "col-lg-10", "mx-auto"], ["id", "what-is-blockchain"], [1, "team-header", "pb-3", "pt-3", "hidden", 2, "color", "black"], [1, "hidden", "emphasis"], [1, "hidden", "pt-3", "pb-5", 2, "text-align", "center"], ["width", "730", "height", "400", "src", "https://www.youtube.com/embed/SSo_EIwHSd4", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [1, "section-heading", "hidden"], [1, "hidden", 2, "text-align", "center"], [1, "hidden"], ["id", "our-workshops"], [1, "section-heading", "pb-3", "pt-3", "hidden"], ["href", "events.html", 1, "hyperlink"], ["href", "https://hyperledger.github.io/composer/v0.19/introduction/introduction", 1, "hyperlink"], ["href", "https://cognitiveclass.ai/courses/blockchain-course/", 1, "hyperlink"], ["href", "https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/", 1, "hyperlink"]],
+      consts: [[3, "pageTitle", "pageDescription"], [1, "masthead", 2, "background-image", "linear-gradient(to right,white,white,rgb(236, 236, 236))"], [1, "container"], [1, "row", "pb-5"], [1, "col-lg-12", "col-lg-10", "mx-auto"], ["id", "what-is-blockchain"], [1, "team-header", "pb-3", "pt-3", "hidden", 2, "color", "black"], [1, "hidden", "emphasis"], [1, "hidden", "pt-3", "pb-5", "text-center"], [1, "embed-responsive", "embed-responsive-16by9"], ["width", "730", "height", "400", "src", "https://www.youtube.com/embed/SSo_EIwHSd4", "frameborder", "0", "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "embed-responsive-item"], [1, "section-heading", "hidden"], [1, "hidden", 2, "text-align", "center"], [1, "hidden"], ["id", "our-workshops"], [1, "section-heading", "pb-3", "pt-3", "hidden"], ["href", "events.html", 1, "hyperlink"], ["href", "https://hyperledger.github.io/composer/v0.19/introduction/introduction", 1, "hyperlink"], ["href", "https://cognitiveclass.ai/courses/blockchain-course/", 1, "hyperlink"], ["href", "https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/", 1, "hyperlink"]],
       template: function EducationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-page-heading", 0);
@@ -1384,169 +1384,173 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "hr", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "iframe", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "hr");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "h3", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " BLOCKCHAIN: ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p", 11);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "(");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "i");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "noun");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, ")");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "A digitized, decentralized ledger of transactions. A blockchain is constantly growing as \u2018completed\u2019 blocks (the most recent transactions) are recorded and added to it in chronological order. It allows market participants to keep track of transactions without centralized record-keeping strategies. Each node (a computer connected to the network) gets a copy of the blockchain, which is continually downloaded automatically. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h3", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " CRYPTOCURRENCY: ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 11);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "(");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "i");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "noun");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, ")");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Any form of currency that only exists digitally, that usually has no central issuing or regulating authority but instead uses a decentralized blockchain-based system to record transactions and manage the issuance of new units. Relies on cryptography to prevent counterfeiting and fraudulent transactions. The first real-world application of blockchain technology was Bitcoin.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "iframe", 10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "hr");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "hr");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h3", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 4);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "section", 13);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "h3", 14);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "OUR WORKSHOPS");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " BLOCKCHAIN: ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "hr", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "(");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "If you are interested in attending any one of the following workshops, please check our ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "i");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 15);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "events");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "noun");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " page to see our upcoming workshop dates and locations.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, ")");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h5", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Blockchain Essentials Workshop");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Our Blockchain Essentials Workshop is designed for people of all backgrounds. This two-hour workshop gives a crash-course on everything related to blockchain and cryptocurrencies, from the genesis of Bitcoin to the innovations happening in the blockchain space right now.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "A digitized, decentralized ledger of transactions. A blockchain is constantly growing as \u2018completed\u2019 blocks (the most recent transactions) are recorded and added to it in chronological order. It allows market participants to keep track of transactions without centralized record-keeping strategies. Each node (a computer connected to the network) gets a copy of the blockchain, which is continually downloaded automatically. ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "h5", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h3", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Hyperledger Composer Development Workshop");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "p", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "If you are interested in learning how to develop blockchain applications and business networks, consider attending one of our Hyperledger Composer Development Workshops. ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Hyperledger Composer");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " CRYPTOCURRENCY: ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " is a set of tools developed by the Linux Foundation in collaboration with IBM for building business blockchain networks, allowing business owners and developers to solve business problems simply and efficiently. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "(");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "i");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "noun");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "h5", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "IBM Blockchain Essentials Online Course");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, ")");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "p", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "This 3-hour online course developed by IBM will help you understand blockchain technology and how it can solve business problems. You will also learn the basics of developing applications with chaincode. Use this ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "link");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Any form of currency that only exists digitally, that usually has no central issuing or regulating authority but instead uses a decentralized blockchain-based system to record transactions and manage the issuance of new units. Relies on cryptography to prevent counterfeiting and fraudulent transactions. The first real-world application of blockchain technology was Bitcoin.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " to access the course. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "h5", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "hr");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "IBM Blockchain Foundation Developer Online Course");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "p", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "section", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "In this 6-hour online course, you'll get a more detailed picture of the components and structures of blockchain business networks, such as ledgers, smart contracts, consensus, certificate authorities, security, roles, transaction processes, participants, and fabrics. This course is for developers who understand object-oriented programming and can use the command line. It is highly recommended that you complete the IBM Blockchain Essentials Online Course before tackling this course. Use this ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h3", 15);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 18);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "link");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "OUR WORKSHOPS");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, " to access the course.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "hr", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "If you are interested in attending any one of the following workshops, please check our ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "events");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " page to see our upcoming workshop dates and locations.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "h5", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Blockchain Essentials Workshop");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Our Blockchain Essentials Workshop is designed for people of all backgrounds. This two-hour workshop gives a crash-course on everything related to blockchain and cryptocurrencies, from the genesis of Bitcoin to the innovations happening in the blockchain space right now.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h5", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Hyperledger Composer Development Workshop");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "If you are interested in learning how to develop blockchain applications and business networks, consider attending one of our Hyperledger Composer Development Workshops. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Hyperledger Composer");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " is a set of tools developed by the Linux Foundation in collaboration with IBM for building business blockchain networks, allowing business owners and developers to solve business problems simply and efficiently. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "h5", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "IBM Blockchain Essentials Online Course");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "This 3-hour online course developed by IBM will help you understand blockchain technology and how it can solve business problems. You will also learn the basics of developing applications with chaincode. Use this ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "link");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " to access the course. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "h5", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "IBM Blockchain Foundation Developer Online Course");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "In this 6-hour online course, you'll get a more detailed picture of the components and structures of blockchain business networks, such as ledgers, smart contracts, consensus, certificate authorities, security, roles, transaction processes, participants, and fabrics. This course is for developers who understand object-oriented programming and can use the command line. It is highly recommended that you complete the IBM Blockchain Essentials Online Course before tackling this course. Use this ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "a", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "link");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, " to access the course.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4317,7 +4321,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\skenn\Development\Git\sbs-website\src\main.ts */
+    /*! E:\Racec\Documents\SpartanBlockchain\sbssite\sbs-website\src\main.ts */
     "./src/main.ts");
     /***/
   }
