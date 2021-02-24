@@ -418,7 +418,7 @@ const sbsTeamMembers = [
         fname: 'Anushka',
         lname: 'Gulati',
         position: 'Technical Analyst',
-        image: '',
+        image: 'anushka.jpg',
         link: 'https://www.linkedin.com/in/anushkagulati'
     }
 ];
