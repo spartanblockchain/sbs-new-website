@@ -45,7 +45,7 @@ export const sbsTeamMembers = [
     fname: 'Ashu',
     lname: 'Acharya',
     position: 'Vice President of Outreach',
-    image: 'ashu.PNG',
+    image: 'ashu.png',
     link: 'https://www.linkedin.com/in/ashu-acharya-5314ba166'
   },
   {
@@ -87,7 +87,7 @@ export const sbsTeamMembers = [
     fname: 'Advik',
     lname: 'Agrawal',
     position: 'Business Analyst',
-    image: 'advik.JPG',
+    image: 'advik.jpg',
     link: 'https://www.linkedin.com/in/advikag/'
   },
   {
@@ -108,7 +108,7 @@ export const sbsTeamMembers = [
     fname: 'Zachariah',
     lname: 'Dittenbir',
     position: 'Business Analyst',
-    image: 'zach.JPG',
+    image: 'zach.jpg',
     link: 'https://www.linkedin.com/in/zachariah-dittenbir-853a72173/'
   },
   {
@@ -122,7 +122,7 @@ export const sbsTeamMembers = [
     fname: 'Arriyan',
     lname: 'Raza',
     position: 'Business Analyst',
-    image: 'arriyan.JPG',
+    image: 'arriyan.jpg',
     link: 'https://www.linkedin.com/in/raza-msu/'
   },
   {
