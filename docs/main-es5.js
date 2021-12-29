@@ -1,6 +1,6 @@
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -118,9 +118,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       redirectTo: ''
     }];
 
-    var AppRoutingModule = function AppRoutingModule() {
+    var AppRoutingModule = /*#__PURE__*/_createClass(function AppRoutingModule() {
       _classCallCheck(this, AppRoutingModule);
-    };
+    });
 
     AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
       type: AppRoutingModule
@@ -198,11 +198,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./shared/components/footer/footer.component */
     "./src/app/shared/components/footer/footer.component.ts");
 
-    var AppComponent = function AppComponent() {
+    var AppComponent = /*#__PURE__*/_createClass(function AppComponent() {
       _classCallCheck(this, AppComponent);
 
       this.title = 'sbs-website';
-    };
+    });
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
       return new (t || AppComponent)();
@@ -223,7 +223,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_shared_components_header_header_component__WEBPACK_IMPORTED_MODULE_1__["HeaderComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
-      styles: ["hr[_ngcontent-%COMP%] {\r\n  border-color: rgb(0, 165, 0);\r\n  border-width: 2px;\r\n  background-color: #00A500;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw0QkFBNEI7RUFDNUIsaUJBQWlCO0VBQ2pCLHlCQUF5QjtBQUMzQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaHIge1xyXG4gIGJvcmRlci1jb2xvcjogcmdiKDAsIDE2NSwgMCk7XHJcbiAgYm9yZGVyLXdpZHRoOiAycHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwQTUwMDtcclxufVxyXG4iXX0= */"]
+      styles: ["hr[_ngcontent-%COMP%] {\n  border-color: rgb(0, 165, 0);\n  border-width: 2px;\n  background-color: #00A500;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw0QkFBNEI7RUFDNUIsaUJBQWlCO0VBQ2pCLHlCQUF5QjtBQUMzQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaHIge1xuICBib3JkZXItY29sb3I6IHJnYigwLCAxNjUsIDApO1xuICBib3JkZXItd2lkdGg6IDJweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwQTUwMDtcbn1cbiJdfQ== */"]
     });
     /*@__PURE__*/
 
@@ -387,9 +387,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./pages/education/components/embedded-medium-articles/embedded-medium-articles.component */
     "./src/app/pages/education/components/embedded-medium-articles/embedded-medium-articles.component.ts");
 
-    var AppModule = function AppModule() {
+    var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
-    };
+    });
 
     AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
       type: AppModule,
@@ -466,65 +466,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     var sbsTeamMembers = [{
-      fname: "Sean",
-      lname: "Kennedy",
+      fname: "Jerry",
+      lname: "LaGore",
       position: "President",
-      image: "seanKennedy.jpg",
-      link: "https://www.linkedin.com/in/sean-b-kennedy/"
+      image: "jerryLaGore.JPG",
+      link: "https://www.linkedin.com/in/jerrylagore/"
     }, {
-      fname: "Maggie",
-      lname: "Francis",
-      position: "Vice President of Diversity and Inclusion",
-      image: "maggie.jpg",
-      link: "https://www.linkedin.com/in/maggie-francis/"
-    }, {
-      fname: "Tyler",
-      lname: "Weisner",
+      fname: "Sungyu",
+      lname: "Kwon",
       position: "Vice President of Technology",
-      image: "tylerWeisner.jpg",
-      link: "https://www.linkedin.com/in/tyler-weisner/"
+      image: "sungyuKwon.jpg",
+      link: "https://www.linkedin.com/in/sungyu-kwon-8a0271169/"
     }, {
-      fname: "Syed",
-      lname: "Zaidi",
-      position: "Vice President of Marketing",
-      image: "syed.jpg",
-      link: "https://www.linkedin.com/in/syed-akbar-zaidi/"
+      fname: "Nikita",
+      lname: "Gupta",
+      position: "Vice President of Research",
+      image: "nikitaGupta.jpg",
+      link: "https://www.linkedin.com/in/nikitagupta2000/"
     }, {
-      fname: "Sawyer",
-      lname: "Ruben",
+      fname: "Kiinga",
+      lname: "Kioi",
       position: "Vice President of Business Development",
-      image: "sawyerRuben.jpg",
-      link: "https://www.sawyerru.github.io/resume/"
+      image: "kiinga.jpg",
+      link: "https://www.linkedin.com/in/kiinga-kioi-18064816a/"
     }, {
-      fname: "Chris",
-      lname: "Nosowsky",
-      position: "Lead Developer",
-      image: "chris.jpg",
-      link: "https://www.linkedin.com/in/christopher-nosowsky/"
-    }, {
-      fname: "Parker",
-      lname: "Nolan",
-      position: "Project Manager",
-      image: "parker.png",
-      link: "https://www.linkedin.com/in/parkernolan/"
-    }, {
-      fname: "Anna",
-      lname: "De Biasi",
-      position: "Senior Developer",
-      image: "anna.jpg",
-      link: "https://www.linkedin.com/in/anna-debiasi/"
-    }, {
-      fname: "Abhi",
-      lname: "Vyas",
-      position: "Technical Analyst",
-      image: "abhi.png",
-      link: "https://www.linkedin.com/in/abhijit-vyas-706784141/"
-    }, {
-      fname: "Drew",
-      lname: "Goretzka",
-      position: "Contributing Writer",
-      image: "drew.png",
-      link: "https://www.linkedin.com/in/drewgoretzka/"
+      fname: "Ashu",
+      lname: "Acharya",
+      position: "Vice President of Outreach",
+      image: "ashu.PNG",
+      link: "https://www.linkedin.com/in/ashuacharya/"
     }, {
       fname: "Advik",
       lname: "Agrawal",
@@ -532,41 +502,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       image: "advik.JPG",
       link: "https://www.linkedin.com/in/advikag/"
     }, {
-      fname: "Neil",
-      lname: "Potdukhe",
-      position: "Technical Analyst",
-      image: "neil-p.JPG",
-      link: "https://www.linkedin.com/in/neil-p-039814122/"
-    }, {
       fname: "Ian",
       lname: "Berriel",
       position: "Technical Analyst",
       image: "ian.jpg",
-      link: "https://www.linkedin.com/in/maggie-francis/"
-    }, {
-      fname: "Kiinga",
-      lname: "Kioi",
-      position: "Technical Analyst",
-      image: "kiinga.jpg",
-      link: "https://www.linkedin.com/in/kiinga-kioi-18064816a/"
-    }, {
-      fname: "Jerry",
-      lname: "LaGore",
-      position: "Technical Analyst",
-      image: "jerry.jpg",
-      link: "https://www.linkedin.com/in/jerrylagore/"
-    }, {
-      fname: "Zachariah",
-      lname: "Dittenbir",
-      position: "Business Analyst",
-      image: "zach.JPG",
-      link: "https://www.linkedin.com/in/zachariah-dittenbir-853a72173/"
-    }, {
-      fname: "Olivia",
-      lname: "Simone",
-      position: "Executive Editor of Marketing",
-      image: "olivia.jpg",
-      link: "https://www.linkedin.com/in/olivia-simone-993229190/"
+      link: "https://www.linkedin.com/in/ianberriel/"
     }, {
       fname: "Arriyan",
       lname: "Raza",
@@ -574,46 +514,58 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       image: "arriyan.JPG",
       link: "https://www.linkedin.com/in/raza-msu/"
     }, {
-      fname: "Ashu",
-      lname: "Acharya",
-      position: "Technical Analyst",
-      image: "ashu.PNG",
-      link: "https://www.linkedin.com/in/ashu-acharya-5314ba166"
-    }, {
-      fname: "Mateo",
-      lname: "Marchan",
-      position: "Business Analyst",
-      image: "mateo.jpg",
-      link: "https://www.linkedin.com/in/mateomarchan/"
-    }, {
-      fname: "Nikita",
-      lname: "Gupta",
-      position: "Technical Analyst",
-      image: "nikita.png",
-      link: "https://www.linkedin.com/in/nikitagupta2000/"
-    }, {
-      fname: "Sungyu",
-      lname: "Kwon",
-      position: "Technical Analyst",
-      image: "sungyu.jpg",
-      link: "https://www.linkedin.com/in/sungyu-kwon-8a0271169/"
-    }, {
       fname: "Freddy",
       lname: "Merlin",
       position: "Technical Analyst",
       image: "freddy.png",
       link: "https://www.linkedin.com/in/freddymerlin/"
     }, {
-      fname: "Austin",
-      lname: "Sobie",
+      fname: "Brian",
+      lname: "George",
       position: "Business Analyst",
-      image: "",
-      link: "https://www.linkedin.com/in/austin-sobie-57809264/"
+      image: "brianGeorge.jpg",
+      link: "https://www.linkedin.com/in/briangeorge-123/"
+    }, {
+      fname: "Jaspreet",
+      lname: "Singh",
+      position: "Business Analyst",
+      image: "jaspreetSingh.png",
+      link: "https://www.linkedin.com/in/jaspreet-singh-msu/"
+    }, {
+      fname: "Max",
+      lname: "Goldstein",
+      position: "Business Analyst",
+      image: "maxGoldstein.JPG",
+      link: "https://www.linkedin.com/in/jaspreet-singh-msu/"
+    }, {
+      fname: "Nate",
+      lname: "Jefferson",
+      position: "Business Analyst",
+      image: "nateJefferson.jpg",
+      link: "https://www.linkedin.com/in/nathanojefferson/"
+    }, {
+      fname: "Nate",
+      lname: "Mikkola",
+      position: "Technical Analyst",
+      image: "nateMikkola.jpg",
+      link: "https://www.linkedin.com/in/nate-mikkola-0b9671228/"
+    }, {
+      fname: "Riley",
+      lname: "Cook",
+      position: "Technical Analyst",
+      image: "rileyCook.jpg",
+      link: "https://www.linkedin.com/in/riley-cook-0a0a7819a/"
+    }, {
+      fname: "Tej",
+      lname: "Sutariya",
+      position: "Business Analyst",
+      image: "tejSutariya.jpg",
+      link: "https://www.linkedin.com/in/tejsutariya/"
     }];
     var boardOfDirectors = [{
       fname: "Siddhant",
       lname: "Chhabra",
-      position: "Bytelion",
+      position: "TEDCO",
       image: "sidd.jpg",
       link: "https://www.linkedin.com/in/siddhant-chhabra/"
     }, {
@@ -625,9 +577,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       fname: "Sean",
       lname: "Kennedy",
-      position: "MSU Master's of Computer Science",
+      position: "Omniex",
       image: "seanKennedy.jpg",
-      link: "https://www.linkedin.com/in/sean-kennedy-096ba616b/"
+      link: "https://www.linkedin.com/in/sean-b-kennedy/"
     }];
     var professionalAdvisors = [{
       fname: "Rohun",
@@ -655,11 +607,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       link: "https://www.linkedin.com/in/davidssmith/"
     }];
     var facultyAdvisors = [{
-      fname: "Neil",
-      lname: "Kane",
-      position: "Director of Undergraduate Entrepreneurship",
-      image: "neil.jpg",
-      link: "https://www.linkedin.com/in/neilkane"
+      fname: "Tom",
+      lname: "Holt",
+      position: "Director of School of Criminal Justice",
+      image: "tomHolt.jpg",
+      link: "https://www.linkedin.com/in/tom-holt-3242a322/"
     }, {
       fname: "Aubrey",
       lname: "Wigner",
@@ -1016,7 +968,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_shared_components_page_heading_page_heading_component__WEBPACK_IMPORTED_MODULE_2__["PageHeadingComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _components_team_member_team_member_component__WEBPACK_IMPORTED_MODULE_4__["TeamMemberComponent"]],
-      styles: [".grid[_ngcontent-%COMP%] {\r\n    display: grid;\r\n    grid-template-rows: auto;\r\n    grid-template-columns: 1fr 1fr 1fr;\r\n    grid-row-gap: 10px;\r\n    grid-column-gap: 10px;\r\n    padding-bottom: 4rem;\r\n}\r\n\r\n.grid-sm[_ngcontent-%COMP%] {\r\n    display: grid;\r\n    grid-template-rows: auto;\r\n    grid-template-columns: 1fr 1fr 1fr 1fr;\r\n    grid-row-gap: 10px;\r\n    grid-column-gap: 10px;\r\n    padding-bottom: 4rem;\r\n}\r\n\r\n.grid-two[_ngcontent-%COMP%] {\r\n    display: grid;\r\n    grid-template-rows: auto;\r\n    grid-template-columns: 1fr 1fr;\r\n    grid-row-gap: 10px;\r\n    grid-column-gap: 10px;\r\n    padding-bottom: 4rem;\r\n}\r\n\r\nhr[_ngcontent-%COMP%] {\r\n    background-color: #00A500;\r\n}\r\n\r\n.team-header[_ngcontent-%COMP%] {\r\n    padding-top: 5%;\r\n}\r\n\r\n.img-padding[_ngcontent-%COMP%] {\r\n    margin: 0px 20px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYix3QkFBd0I7SUFDeEIsa0NBQWtDO0lBQ2xDLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHdCQUF3QjtJQUN4QixzQ0FBc0M7SUFDdEMsa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixvQkFBb0I7QUFDeEI7O0FBRUE7SUFDSSxhQUFhO0lBQ2Isd0JBQXdCO0lBQ3hCLDhCQUE4QjtJQUM5QixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLG9CQUFvQjtBQUN4Qjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdyaWQge1xyXG4gICAgZGlzcGxheTogZ3JpZDtcclxuICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0bztcclxuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmciAxZnI7XHJcbiAgICBncmlkLXJvdy1nYXA6IDEwcHg7XHJcbiAgICBncmlkLWNvbHVtbi1nYXA6IDEwcHg7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogNHJlbTtcclxufVxyXG5cclxuLmdyaWQtc20ge1xyXG4gICAgZGlzcGxheTogZ3JpZDtcclxuICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0bztcclxuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmciAxZnIgMWZyO1xyXG4gICAgZ3JpZC1yb3ctZ2FwOiAxMHB4O1xyXG4gICAgZ3JpZC1jb2x1bW4tZ2FwOiAxMHB4O1xyXG4gICAgcGFkZGluZy1ib3R0b206IDRyZW07XHJcbn1cclxuXHJcbi5ncmlkLXR3byB7XHJcbiAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiBhdXRvO1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyO1xyXG4gICAgZ3JpZC1yb3ctZ2FwOiAxMHB4O1xyXG4gICAgZ3JpZC1jb2x1bW4tZ2FwOiAxMHB4O1xyXG4gICAgcGFkZGluZy1ib3R0b206IDRyZW07XHJcbn1cclxuXHJcbmhyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMEE1MDA7XHJcbn1cclxuXHJcbi50ZWFtLWhlYWRlciB7XHJcbiAgICBwYWRkaW5nLXRvcDogNSU7XHJcbn1cclxuXHJcbi5pbWctcGFkZGluZyB7XHJcbiAgICBtYXJnaW46IDBweCAyMHB4O1xyXG59Il19 */"]
+      styles: [".grid[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-rows: auto;\n    grid-template-columns: 1fr 1fr 1fr;\n    grid-row-gap: 10px;\n    grid-column-gap: 10px;\n    padding-bottom: 4rem;\n}\n\n.grid-sm[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-rows: auto;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    grid-row-gap: 10px;\n    grid-column-gap: 10px;\n    padding-bottom: 4rem;\n}\n\n.grid-two[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-rows: auto;\n    grid-template-columns: 1fr 1fr;\n    grid-row-gap: 10px;\n    grid-column-gap: 10px;\n    padding-bottom: 4rem;\n}\n\nhr[_ngcontent-%COMP%] {\n    background-color: #00A500;\n}\n\n.team-header[_ngcontent-%COMP%] {\n    padding-top: 5%;\n}\n\n.img-padding[_ngcontent-%COMP%] {\n    margin: 0px 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYix3QkFBd0I7SUFDeEIsa0NBQWtDO0lBQ2xDLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHdCQUF3QjtJQUN4QixzQ0FBc0M7SUFDdEMsa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixvQkFBb0I7QUFDeEI7O0FBRUE7SUFDSSxhQUFhO0lBQ2Isd0JBQXdCO0lBQ3hCLDhCQUE4QjtJQUM5QixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLG9CQUFvQjtBQUN4Qjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdyaWQge1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiBhdXRvO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmciAxZnI7XG4gICAgZ3JpZC1yb3ctZ2FwOiAxMHB4O1xuICAgIGdyaWQtY29sdW1uLWdhcDogMTBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogNHJlbTtcbn1cblxuLmdyaWQtc20ge1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiBhdXRvO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmciAxZnIgMWZyO1xuICAgIGdyaWQtcm93LWdhcDogMTBweDtcbiAgICBncmlkLWNvbHVtbi1nYXA6IDEwcHg7XG4gICAgcGFkZGluZy1ib3R0b206IDRyZW07XG59XG5cbi5ncmlkLXR3byB7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLXJvd3M6IGF1dG87XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyO1xuICAgIGdyaWQtcm93LWdhcDogMTBweDtcbiAgICBncmlkLWNvbHVtbi1nYXA6IDEwcHg7XG4gICAgcGFkZGluZy1ib3R0b206IDRyZW07XG59XG5cbmhyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDBBNTAwO1xufVxuXG4udGVhbS1oZWFkZXIge1xuICAgIHBhZGRpbmctdG9wOiA1JTtcbn1cblxuLmltZy1wYWRkaW5nIHtcbiAgICBtYXJnaW46IDBweCAyMHB4O1xufSJdfQ== */"]
     });
     /*@__PURE__*/
 
@@ -1139,7 +1091,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.position, " ");
         }
       },
-      styles: [".profileImgSbs[_ngcontent-%COMP%] {\r\n    width: 250px;\r\n    height: 250px;\r\n    margin-top: 1em;\r\n}\r\n\r\n.position-name[_ngcontent-%COMP%] {\r\n    font-size: 20px\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvY29tcG9uZW50cy90ZWFtLW1lbWJlci90ZWFtLW1lbWJlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixlQUFlO0FBQ25COztBQUVBO0lBQ0k7QUFDSiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Fib3V0L2NvbXBvbmVudHMvdGVhbS1tZW1iZXIvdGVhbS1tZW1iZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9maWxlSW1nU2JzIHtcclxuICAgIHdpZHRoOiAyNTBweDtcclxuICAgIGhlaWdodDogMjUwcHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxZW07XHJcbn1cclxuXHJcbi5wb3NpdGlvbi1uYW1lIHtcclxuICAgIGZvbnQtc2l6ZTogMjBweFxyXG59Il19 */"]
+      styles: [".profileImgSbs[_ngcontent-%COMP%] {\n    width: 250px;\n    height: 250px;\n    margin-top: 1em;\n}\n\n.position-name[_ngcontent-%COMP%] {\n    font-size: 20px\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvY29tcG9uZW50cy90ZWFtLW1lbWJlci90ZWFtLW1lbWJlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixlQUFlO0FBQ25COztBQUVBO0lBQ0k7QUFDSiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Fib3V0L2NvbXBvbmVudHMvdGVhbS1tZW1iZXIvdGVhbS1tZW1iZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9maWxlSW1nU2JzIHtcbiAgICB3aWR0aDogMjUwcHg7XG4gICAgaGVpZ2h0OiAyNTBweDtcbiAgICBtYXJnaW4tdG9wOiAxZW07XG59XG5cbi5wb3NpdGlvbi1uYW1lIHtcbiAgICBmb250LXNpemU6IDIwcHhcbn0iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -2588,7 +2540,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["MdbInput"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["MdbValidateDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["MdbBtnDirective"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["WavesDirective"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["MdbErrorDirective"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_4__["MdbSuccessDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_x"]],
-      styles: [".gap-top[_ngcontent-%COMP%] {\r\n    margin-top: 1.5em;\r\n}\r\n\r\n.gap-bot[_ngcontent-%COMP%] {\r\n    margin-bottom: 1.5em;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2NvbXBvbmVudHMvY29udGFjdC1mb3JtL2NvbnRhY3QtZm9ybS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQW9CO0FBQ3hCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2NvbXBvbmVudHMvY29udGFjdC1mb3JtL2NvbnRhY3QtZm9ybS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdhcC10b3Age1xyXG4gICAgbWFyZ2luLXRvcDogMS41ZW07XHJcbn1cclxuXHJcbi5nYXAtYm90IHtcclxuICAgIG1hcmdpbi1ib3R0b206IDEuNWVtO1xyXG59Il19 */"]
+      styles: [".gap-top[_ngcontent-%COMP%] {\n    margin-top: 1.5em;\n}\n\n.gap-bot[_ngcontent-%COMP%] {\n    margin-bottom: 1.5em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2NvbXBvbmVudHMvY29udGFjdC1mb3JtL2NvbnRhY3QtZm9ybS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQW9CO0FBQ3hCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2NvbXBvbmVudHMvY29udGFjdC1mb3JtL2NvbnRhY3QtZm9ybS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdhcC10b3Age1xuICAgIG1hcmdpbi10b3A6IDEuNWVtO1xufVxuXG4uZ2FwLWJvdCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMS41ZW07XG59Il19 */"]
     });
     /*@__PURE__*/
 
@@ -2915,7 +2867,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_shared_components_page_heading_page_heading_component__WEBPACK_IMPORTED_MODULE_1__["PageHeadingComponent"], _components_contact_form_contact_form_component__WEBPACK_IMPORTED_MODULE_2__["ContactFormComponent"]],
-      styles: [".gap-top[_ngcontent-%COMP%] {\r\n    margin-top: 1.5em;\r\n}\r\n\r\n.gap-bot[_ngcontent-%COMP%] {\r\n    margin-bottom: 1.5em;\r\n}\r\n\r\n.primary-color-a[_ngcontent-%COMP%] {\r\n    text-decoration: none;\r\n    color: rgb(64, 64, 64);\r\n    \r\n}\r\n\r\na[_ngcontent-%COMP%]:focus, a[_ngcontent-%COMP%]:hover {\r\n    color: rgb(0, 127, 51);\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2dldC1pbnZvbHZlZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLHNCQUFzQjs7QUFFMUI7O0FBRUE7SUFDSSxzQkFBc0I7RUFDeEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9nZXQtaW52b2x2ZWQvZ2V0LWludm9sdmVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZ2FwLXRvcCB7XHJcbiAgICBtYXJnaW4tdG9wOiAxLjVlbTtcclxufVxyXG5cclxuLmdhcC1ib3Qge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMS41ZW07XHJcbn1cclxuXHJcbi5wcmltYXJ5LWNvbG9yLWEge1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgY29sb3I6IHJnYig2NCwgNjQsIDY0KTtcclxuICAgIFxyXG59XHJcblxyXG5hOmZvY3VzLCBhOmhvdmVyIHtcclxuICAgIGNvbG9yOiByZ2IoMCwgMTI3LCA1MSk7XHJcbiAgfSJdfQ== */"]
+      styles: [".gap-top[_ngcontent-%COMP%] {\n    margin-top: 1.5em;\n}\n\n.gap-bot[_ngcontent-%COMP%] {\n    margin-bottom: 1.5em;\n}\n\n.primary-color-a[_ngcontent-%COMP%] {\n    text-decoration: none;\n    color: rgb(64, 64, 64);\n    \n}\n\na[_ngcontent-%COMP%]:focus, a[_ngcontent-%COMP%]:hover {\n    color: rgb(0, 127, 51);\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvZ2V0LWludm9sdmVkL2dldC1pbnZvbHZlZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLHNCQUFzQjs7QUFFMUI7O0FBRUE7SUFDSSxzQkFBc0I7RUFDeEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9nZXQtaW52b2x2ZWQvZ2V0LWludm9sdmVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZ2FwLXRvcCB7XG4gICAgbWFyZ2luLXRvcDogMS41ZW07XG59XG5cbi5nYXAtYm90IHtcbiAgICBtYXJnaW4tYm90dG9tOiAxLjVlbTtcbn1cblxuLnByaW1hcnktY29sb3ItYSB7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIGNvbG9yOiByZ2IoNjQsIDY0LCA2NCk7XG4gICAgXG59XG5cbmE6Zm9jdXMsIGE6aG92ZXIge1xuICAgIGNvbG9yOiByZ2IoMCwgMTI3LCA1MSk7XG4gIH0iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -3399,7 +3351,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_shared_components_page_heading_page_heading_component__WEBPACK_IMPORTED_MODULE_1__["PageHeadingComponent"], _education_components_embedded_medium_articles_embedded_medium_articles_component__WEBPACK_IMPORTED_MODULE_2__["EmbeddedMediumArticlesComponent"]],
-      styles: [".action-button[_ngcontent-%COMP%] {\r\n  background-color: #00a500;\r\n  font-size: 2rem;\r\n  padding: 1rem;\r\n  border-radius: 50%;\r\n  border: 2px solid #00a500;\r\n  margin-bottom: 2rem;\r\n  color:white;\r\n  font-weight: bold;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7RUFDekIsZUFBZTtFQUNmLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsaUJBQWlCO0FBQ25CIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWN0aW9uLWJ1dHRvbiB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwYTUwMDtcclxuICBmb250LXNpemU6IDJyZW07XHJcbiAgcGFkZGluZzogMXJlbTtcclxuICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgYm9yZGVyOiAycHggc29saWQgIzAwYTUwMDtcclxuICBtYXJnaW4tYm90dG9tOiAycmVtO1xyXG4gIGNvbG9yOndoaXRlO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcbiJdfQ== */"]
+      styles: [".action-button[_ngcontent-%COMP%] {\n  background-color: #00a500;\n  font-size: 2rem;\n  padding: 1rem;\n  border-radius: 50%;\n  border: 2px solid #00a500;\n  margin-bottom: 2rem;\n  color:white;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBeUI7RUFDekIsZUFBZTtFQUNmLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsaUJBQWlCO0FBQ25CIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWN0aW9uLWJ1dHRvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMGE1MDA7XG4gIGZvbnQtc2l6ZTogMnJlbTtcbiAgcGFkZGluZzogMXJlbTtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xuICBib3JkZXI6IDJweCBzb2xpZCAjMDBhNTAwO1xuICBtYXJnaW4tYm90dG9tOiAycmVtO1xuICBjb2xvcjp3aGl0ZTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG4iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -3656,7 +3608,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"]],
-      styles: [".footer-background[_ngcontent-%COMP%] {\r\n    background-color: rgb(27, 33, 37)\r\n}\r\n\r\n.footer-background[_ngcontent-%COMP%]   .on-hover[_ngcontent-%COMP%] {\r\n    background-color: rgb(27, 33, 37)\r\n}\r\n\r\n.icon-background[_ngcontent-%COMP%] {\r\n    color: rgb(0, 127, 51)\r\n}\r\n\r\n.footer-page-links[_ngcontent-%COMP%] {\r\n    color: white;\r\n    font-size: medium;\r\n    margin: 2em;\r\n    font-weight: bold;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7QUFDSjs7QUFFQTtJQUNJO0FBQ0o7O0FBRUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixXQUFXO0lBQ1gsaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvb3Rlci1iYWNrZ3JvdW5kIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNywgMzMsIDM3KVxyXG59XHJcblxyXG4uZm9vdGVyLWJhY2tncm91bmQgLm9uLWhvdmVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNywgMzMsIDM3KVxyXG59XHJcblxyXG4uaWNvbi1iYWNrZ3JvdW5kIHtcclxuICAgIGNvbG9yOiByZ2IoMCwgMTI3LCA1MSlcclxufVxyXG5cclxuLmZvb3Rlci1wYWdlLWxpbmtzIHtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtc2l6ZTogbWVkaXVtO1xyXG4gICAgbWFyZ2luOiAyZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSJdfQ== */"]
+      styles: [".footer-background[_ngcontent-%COMP%] {\n    background-color: rgb(27, 33, 37)\n}\n\n.footer-background[_ngcontent-%COMP%]   .on-hover[_ngcontent-%COMP%] {\n    background-color: rgb(27, 33, 37)\n}\n\n.icon-background[_ngcontent-%COMP%] {\n    color: rgb(0, 127, 51)\n}\n\n.footer-page-links[_ngcontent-%COMP%] {\n    color: white;\n    font-size: medium;\n    margin: 2em;\n    font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7QUFDSjs7QUFFQTtJQUNJO0FBQ0o7O0FBRUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixXQUFXO0lBQ1gsaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvb3Rlci1iYWNrZ3JvdW5kIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjcsIDMzLCAzNylcbn1cblxuLmZvb3Rlci1iYWNrZ3JvdW5kIC5vbi1ob3ZlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI3LCAzMywgMzcpXG59XG5cbi5pY29uLWJhY2tncm91bmQge1xuICAgIGNvbG9yOiByZ2IoMCwgMTI3LCA1MSlcbn1cblxuLmZvb3Rlci1wYWdlLWxpbmtzIHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiBtZWRpdW07XG4gICAgbWFyZ2luOiAyZW07XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */"]
     });
     /*@__PURE__*/
 
@@ -4073,7 +4025,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLink"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
-      styles: [".router-link-active[_ngcontent-%COMP%] {\r\n    color: rgb(0, 176, 79) !important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUNBQWlDO0FBQ3JDIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdXRlci1saW5rLWFjdGl2ZSB7XHJcbiAgICBjb2xvcjogcmdiKDAsIDE3NiwgNzkpICFpbXBvcnRhbnQ7XHJcbn0iXX0= */"]
+      styles: [".router-link-active[_ngcontent-%COMP%] {\n    color: rgb(0, 176, 79) !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUNBQWlDO0FBQ3JDIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdXRlci1saW5rLWFjdGl2ZSB7XG4gICAgY29sb3I6IHJnYigwLCAxNzYsIDc5KSAhaW1wb3J0YW50O1xufSJdfQ== */"]
     });
     /*@__PURE__*/
 
@@ -4321,7 +4273,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! E:\Racec\Documents\SpartanBlockchain\sbssite\sbs-website\src\main.ts */
+    /*! /Users/jerrylagore/Desktop/Spartan Blockchain/Website/sbs-new-website/src/main.ts */
     "./src/main.ts");
     /***/
   }
