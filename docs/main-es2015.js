@@ -386,25 +386,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function AboutComponent_app_team_member_19_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 45);
 } if (rf & 2) {
     const m_r4 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("fname", m_r4.fname)("lname", m_r4.lname)("img", m_r4.image)("link", m_r4.link)("position", m_r4.position);
 } }
 function AboutComponent_app_team_member_24_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 45);
 } if (rf & 2) {
     const m_r5 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("fname", m_r5.fname)("lname", m_r5.lname)("img", m_r5.image)("link", m_r5.link)("position", m_r5.position);
 } }
 function AboutComponent_app_team_member_30_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 45);
 } if (rf & 2) {
     const m_r6 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("fname", m_r6.fname)("lname", m_r6.lname)("img", m_r6.image)("link", m_r6.link)("position", m_r6.position);
 } }
 function AboutComponent_app_team_member_35_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-team-member", 45);
 } if (rf & 2) {
     const m_r7 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("fname", m_r7.fname)("lname", m_r7.lname)("img", m_r7.image)("link", m_r7.link)("position", m_r7.position);
@@ -422,7 +422,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 65, vars: 6, consts: [[3, "pageTitle", "pageDescription"], [1, "container"], [1, "row"], [1, "col-lg-12", "col-lg-10", "mx-auto"], ["id", "who-are-we"], [1, "section-heading", "hidden", "pb-2"], ["width", "15%", 1, "hidden", 2, "border-width", "7px"], [1, "hidden", "pb-4", 2, "text-align", "justify"], [1, "masthead"], [1, "overlay", 2, "background-image", "url('assets/images/stock/prism.png')", "background-color", "black"], ["align", "center", 1, "container"], ["id", "our-team"], [1, "team-header", "pb-2", "hidden", 2, "font-size", "28pt"], ["width", "15%", 1, "hidden", "mb-3", 2, "border-width", "7px"], ["id", "sbsTeamMembers", 1, "grid", "hidden"], [3, "fname", "lname", "img", "link", "position", 4, "ngFor", "ngForOf"], [1, "team-header", "pb-2", "hidden"], ["id", "boardOfDirectors", 1, "grid", "hidden"], ["id", "our-advisors"], ["id", "professionalAdvisors", 1, "hidden", "grid"], ["id", "facultyAdvisors", 1, "grid-sm", "hidden"], [1, "masthead", 2, "background-color", "white"], ["id", "our-partners"], [1, "team-header", "pb-3", "pt-5", "hidden", 2, "color", "black"], ["align", "center", 1, "mt-4", "mb-5", "hidden"], ["href", "https://www.linkedin.com/company/blockchain-iu/"], ["src", "assets/images/logos/blockchain-iu.png", 1, "img-padding", 2, "width", "300px"], ["href", "https://www.michiganblockchain.org/"], ["src", "assets/images/logos/blockchain-at-michigan.png", 1, "img-padding", 2, "width", "250px"], ["href", "https://mubc.io/"], ["src", "assets/images/logos/mubc.PNG", 1, "img-padding", "pl-5", "pr-5", 2, "width", "300px"], ["href", "https://www.metllab.com/"], ["src", "assets/images/logos/metl.PNG", 1, "img-padding", "pr-5", 2, "width", "400px"], ["src", "assets/images/logos/blockchain-luc.PNG", 1, "img-padding", 2, "width", "280px"], [1, "mt-4", "mb-5", "hidden"], ["href", "https://blockchainedu.org/"], ["src", "assets/images/logos/blockchain-education-network.png", 1, "img-padding", 2, "width", "250px"], ["href", "https://www.mousebelt.com/"], ["src", "assets/images/logos/mousebelt.jfif", 1, "img-padding", 2, "width", "333px"], ["href", "https://www.linkedin.com/company/midwestblockchain/"], ["src", "assets/images/logos/mbc-logo.jpeg", 1, "img-padding", 2, "width", "250px"], [3, "fname", "lname", "img", "link", "position"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 69, vars: 6, consts: [[3, "pageTitle", "pageDescription"], [1, "container"], [1, "row"], [1, "col-lg-12", "col-lg-10", "mx-auto"], ["id", "who-are-we"], [1, "section-heading", "hidden", "pb-2"], ["width", "15%", 1, "hidden", 2, "border-width", "7px"], [1, "hidden", "pb-4", 2, "text-align", "justify"], [1, "masthead"], [1, "overlay", 2, "background-image", "url('assets/images/stock/prism.png')", "background-color", "black"], ["align", "center", 1, "container"], ["id", "our-team"], [1, "team-header", "pb-2", "hidden", 2, "font-size", "28pt"], ["width", "15%", 1, "hidden", "mb-3", 2, "border-width", "7px"], ["id", "sbsTeamMembers", 1, "grid", "hidden"], [3, "fname", "lname", "img", "link", "position", 4, "ngFor", "ngForOf"], [1, "team-header", "pb-2", "hidden"], ["id", "boardOfDirectors", 1, "grid", "hidden"], ["id", "our-advisors"], ["id", "professionalAdvisors", 1, "hidden", "grid"], ["id", "facultyAdvisors", 1, "grid-sm", "hidden"], [1, "masthead", 2, "background-color", "white"], ["id", "our-partners"], [1, "team-header", "pb-3", "pt-5", "hidden", 2, "color", "black"], ["align", "center", 1, "mt-4", "mb-5", "hidden"], ["href", "https://www.linkedin.com/company/blockchain-iu/"], ["src", "assets/images/logos/blockchain-iu.png", 1, "img-padding", 2, "width", "300px"], ["href", "https://www.michiganblockchain.org/"], ["src", "assets/images/logos/blockchain-at-michigan.png", 1, "img-padding", 2, "width", "250px"], ["href", "https://mubc.io/"], ["src", "assets/images/logos/mubc.PNG", 1, "img-padding", "pl-5", "pr-5", 2, "width", "300px"], ["href", "https://www.metllab.com/"], ["src", "assets/images/logos/metl.PNG", 1, "img-padding", "pr-5", 2, "width", "400px"], ["src", "assets/images/logos/blockchain-luc.PNG", 1, "img-padding", 2, "width", "280px"], [1, "mt-4", "mb-5", "hidden"], ["href", "https://simbachain.com"], ["src", "assets/images/logos/simbaChain.png", 1, "img-padding", 2, "width", "250px"], ["href", "https://www.encode.club"], ["src", "assets/images/logos/encodeClub.jpeg", 1, "img-padding", 2, "width", "250px"], ["href", "https://blockchainedu.org/"], ["src", "assets/images/logos/blockchain-education-network.png", 1, "img-padding", 2, "width", "250px"], ["href", "https://www.mousebelt.com/"], ["src", "assets/images/logos/mousebelt.jfif", 1, "img-padding", 2, "width", "333px"], ["href", "https://www.linkedin.com/company/midwestblockchain/"], ["src", "assets/images/logos/mbc-logo.jpeg", 1, "img-padding", 2, "width", "250px"], [3, "fname", "lname", "img", "link", "position"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-page-heading", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -516,6 +516,12 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "img", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "img", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "img", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
