@@ -1,6 +1,6 @@
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -118,9 +118,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       redirectTo: ''
     }];
 
-    var AppRoutingModule = function AppRoutingModule() {
+    var AppRoutingModule = /*#__PURE__*/_createClass(function AppRoutingModule() {
       _classCallCheck(this, AppRoutingModule);
-    };
+    });
 
     AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
       type: AppRoutingModule
@@ -198,11 +198,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./shared/components/footer/footer.component */
     "./src/app/shared/components/footer/footer.component.ts");
 
-    var AppComponent = function AppComponent() {
+    var AppComponent = /*#__PURE__*/_createClass(function AppComponent() {
       _classCallCheck(this, AppComponent);
 
       this.title = 'sbs-website';
-    };
+    });
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
       return new (t || AppComponent)();
@@ -387,9 +387,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./pages/education/components/embedded-medium-articles/embedded-medium-articles.component */
     "./src/app/pages/education/components/embedded-medium-articles/embedded-medium-articles.component.ts");
 
-    var AppModule = function AppModule() {
+    var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
-    };
+    });
 
     AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
       type: AppModule,
@@ -4323,7 +4323,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Angular\sbs-new-website\src\main.ts */
+    /*! C:\Users\fredd\OneDrive\Desktop\sbs-new-website\src\main.ts */
     "./src/main.ts");
     /***/
   }

@@ -37,7 +37,7 @@ export const sbsTeamMembers = [
   {
     fname: 'Jerry',
     lname: 'LaGore',
-    position: 'Vice President of Education',
+    position: 'President',
     image: 'jerry.jpg',
     link: 'https://www.linkedin.com/in/jerrylagore/'
   },
