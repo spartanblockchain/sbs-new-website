@@ -1747,7 +1747,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 41, vars: 10, consts: [[1, "row", "no-gutters", "footer-background"], [1, "col-lg-8", "col-md-10", "my-5", "mx-auto", "hidden"], [1, "list-inline", "text-center"], [1, "list-inline-item"], ["routerLinkActive", "router-link-active", 1, "footer-page-links", 3, "routerLink"], [1, "list-inline", "text-center", "my-4"], ["href", "https://www.linkedin.com/company/spartan-blockchain-solutions/"], [1, "fa-stack", "fa-lg"], [1, "fas", "fa-circle", "fa-stack-2x", "icon-background"], [1, "fab", "fa-linkedin", "fa-stack-1x", "fa-inverse"], ["href", "https://www.instagram.com/spartanblockchainsolutions/"], [1, "fab", "fa-instagram", "fa-stack-1x", "fa-inverse"], ["href", "https://www.facebook.com/msublockchain/"], [1, "fab", "fa-facebook-f", "fa-stack-1x", "fa-inverse"], ["href", "https://www.github.com/spartanblockchain"], [1, "fab", "fa-github", "fa-stack-1x", "fa-inverse"], [1, "copyright", "text-muted", "text-center"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 46, vars: 10, consts: [[1, "row", "no-gutters", "footer-background"], [1, "col-lg-8", "col-md-10", "my-5", "mx-auto", "hidden"], [1, "list-inline", "text-center"], [1, "list-inline-item"], ["routerLinkActive", "router-link-active", 1, "footer-page-links", 3, "routerLink"], [1, "list-inline", "text-center", "my-4"], ["href", "https://www.linkedin.com/company/spartan-blockchain-solutions/"], [1, "fa-stack", "fa-lg"], [1, "fas", "fa-circle", "fa-stack-2x", "icon-background"], [1, "fab", "fa-linkedin", "fa-stack-1x", "fa-inverse"], ["href", "https://www.instagram.com/spartanblockchainsolutions/"], [1, "fab", "fa-instagram", "fa-stack-1x", "fa-inverse"], ["href", "https://twitter.com/msu_blockchain"], [1, "fab", "fa-twitter", "fa-stack-1x", "fa-inverse"], ["href", "https://www.facebook.com/msublockchain/"], [1, "fab", "fa-facebook-f", "fa-stack-1x", "fa-inverse"], ["href", "https://www.github.com/spartanblockchain"], [1, "fab", "fa-github", "fa-stack-1x", "fa-inverse"], [1, "copyright", "text-muted", "text-center"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "ul", 2);
@@ -1810,9 +1810,17 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "span", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "i", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Copyright \u00A9 2020 Spartan Blockchain Solutions, Inc. All rights reserved.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "p", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Copyright \u00A9 2022 Spartan Blockchain Solutions, Inc. All rights reserved.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
